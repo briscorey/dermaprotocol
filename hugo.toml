@@ -1,0 +1,53 @@
+baseURL = "https://dermaprotocol.org"
+languageCode = "en-us"
+title = "DermaProtocol"
+
+[pagination]
+  pagerSize = 20
+
+summaryLength = 40
+
+[params]
+  description = "Practical decision support for skincare, supplements, and nutrition. Build smarter routines without the hype."
+  tagline = "Skincare and supplement decisions, simplified."
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[menu]
+  [[menu.main]]
+    name = "Routine Builder"
+    url = "/routine-builder/"
+    weight = 1
+  [[menu.main]]
+    name = "Ingredients"
+    url = "/ingredients/"
+    weight = 2
+  [[menu.main]]
+    name = "Comparisons"
+    url = "/comparisons/"
+    weight = 3
+  [[menu.main]]
+    name = "Stack Checker"
+    url = "/stack-checker/"
+    weight = 4
+  [[menu.main]]
+    name = "Protocols"
+    url = "/protocols/"
+    weight = 5
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 6
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]

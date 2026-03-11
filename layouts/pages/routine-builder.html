@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="detail-hero">
+  <div class="container--narrow" style="text-align:center">
+    <span class="label">Interactive Tool</span>
+    <h1 class="display display--lg" style="margin-top:var(--sp-3)">Routine Builder</h1>
+    <p class="body body--lg" style="margin-top:var(--sp-3)">Select a goal to get a simple, structured AM and PM routine. Core steps first, optional upgrades second.</p>
+  </div>
+</div>
+<div class="section">
+  <div class="container--narrow">
+    <div class="grid grid--3" id="goalGrid" style="margin-bottom:var(--sp-10)">
+      <button class="builder-goal" data-goal="acne"><span class="builder-goal__name">Acne</span></button>
+      <button class="builder-goal" data-goal="pigmentation"><span class="builder-goal__name">Pigmentation</span></button>
+      <button class="builder-goal" data-goal="wrinkles"><span class="builder-goal__name">Wrinkles</span></button>
+      <button class="builder-goal" data-goal="barrier"><span class="builder-goal__name">Barrier Repair</span></button>
+      <button class="builder-goal" data-goal="sensitive"><span class="builder-goal__name">Sensitive Skin</span></button>
+      <button class="builder-goal" data-goal="general"><span class="builder-goal__name">General Health</span></button>
+    </div>
+    <div id="routineOutput" style="display:none"></div>
+
+    <div class="disclaimer" style="margin-top:var(--sp-16)">
+      <div class="disclaimer__title">Disclaimer</div>
+      <p class="disclaimer__text">This tool generates educational suggestions only. It is not a treatment plan. Results vary. Introduce changes slowly and consult a healthcare provider if you have specific concerns.</p>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="/js/routine-builder.js"></script>
+{{ end }}

@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="detail-hero">
+  <div class="container--narrow" style="text-align:center">
+    <span class="label">Interactive Tool</span>
+    <h1 class="display display--lg" style="margin-top:var(--sp-3)">Stack Checker</h1>
+    <p class="body body--lg" style="margin-top:var(--sp-3)">Add your current ingredients and supplements to check for overlap, irritation risk, redundancy, and simplification opportunities.</p>
+  </div>
+</div>
+<div class="section">
+  <div class="container--narrow">
+    <div class="alert alert--info" style="margin-bottom:var(--sp-8)">
+      <div class="alert__title">Educational tool only</div>
+      This checker provides general educational guidance. It does not account for your specific skin type, health conditions, or product formulations. Consult a professional for personalised advice.
+    </div>
+
+    <div class="checker-input" id="checkerInput">
+      <div id="checkerTags"></div>
+      <input type="text" class="checker-text-input" id="checkerField" placeholder="Type an ingredient and press Enter..." autocomplete="off">
+    </div>
+    <p class="body--sm" style="margin-top:var(--sp-2);color:var(--text-muted)">Try: retinol, vitamin C, niacinamide, benzoyl peroxide, AHA, salicylic acid, azelaic acid</p>
+
+    <div id="checkerResults" style="margin-top:var(--sp-8)"></div>
+  </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="/js/stack-checker.js"></script>
+{{ end }}

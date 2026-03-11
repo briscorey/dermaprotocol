@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="detail-hero">
+  <div class="container">
+    <span class="label">Protocols</span>
+    <h1 class="display display--lg">Goal-Based Protocols</h1>
+    <p class="body body--lg" style="margin-top:var(--sp-3)">Structured, practical protocols organised around specific skin goals.</p>
+  </div>
+</div>
+<div class="section">
+  <div class="container">
+    <div class="grid grid--3">
+      {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="protocol-card reveal">
+        {{ with .Params.goal }}<span class="protocol-card__goal">{{ . }}</span>{{ end }}
+        <h3 class="protocol-card__title">{{ .Title }}</h3>
+        <p class="protocol-card__desc">{{ .Description }}</p>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="detail-hero">
+  <div class="container--narrow">
+    <span class="label">Comparison</span>
+    <h1 class="display display--lg">{{ .Title }}</h1>
+    {{ with .Description }}<p class="body body--lg" style="margin-top:var(--sp-3)">{{ . }}</p>{{ end }}
+  </div>
+</div>
+<div class="detail-content">
+  <div class="container--narrow">
+    {{ .Content }}
+
+    <div class="disclaimer reveal" style="margin-top:var(--sp-12)">
+      <div class="disclaimer__title">Disclaimer</div>
+      <p class="disclaimer__text">This comparison is educational and simplified. Individual responses vary. Consult a healthcare provider for personalised advice.</p>
+    </div>
+  </div>
+</div>
+{{ end }}

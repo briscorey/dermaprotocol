@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="detail-hero">
+  <div class="container">
+    <span class="label">{{ .Title }}</span>
+    <h1 class="display display--lg">{{ .Title }}</h1>
+    {{ with .Description }}<p class="body body--lg">{{ . }}</p>{{ end }}
+  </div>
+</div>
+<div class="section">
+  <div class="container">
+    <div class="grid grid--3">
+      {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="card card--interactive reveal">
+        {{ with .Params.category }}<span class="label" style="margin-bottom:0.5rem;display:block">{{ . }}</span>{{ end }}
+        <h3 class="heading--md" style="margin-bottom:0.5rem">{{ .Title }}</h3>
+        <p class="body--sm">{{ .Description }}</p>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

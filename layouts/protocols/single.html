@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="detail-hero">
+  <div class="container--narrow">
+    <span class="label">Protocol</span>
+    <h1 class="display display--lg">{{ .Title }}</h1>
+    {{ with .Params.goal }}<span class="badge badge--accent" style="margin-top:var(--sp-3)">Goal: {{ . }}</span>{{ end }}
+    {{ with .Description }}<p class="body body--lg" style="margin-top:var(--sp-4)">{{ . }}</p>{{ end }}
+  </div>
+</div>
+<div class="detail-content">
+  <div class="container--narrow">
+    {{ .Content }}
+
+    <div class="disclaimer reveal" style="margin-top:var(--sp-12)">
+      <div class="disclaimer__title">Disclaimer</div>
+      <p class="disclaimer__text">This protocol is educational and not a treatment plan. Results vary significantly between individuals. Consult a dermatologist or healthcare provider before starting any new protocol.</p>
+    </div>
+  </div>
+</div>
+{{ end }}

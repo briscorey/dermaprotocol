@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="detail-hero">
+  <div class="container">
+    <span class="label">Comparisons</span>
+    <h1 class="display display--lg">Side-by-Side Comparisons</h1>
+    <p class="body body--lg" style="margin-top:var(--sp-3)">Choose between common options with clear, structured comparisons.</p>
+  </div>
+</div>
+<div class="section">
+  <div class="container">
+    <div class="grid grid--2">
+      {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="card card--interactive reveal">
+        <span class="badge badge--info" style="margin-bottom:var(--sp-3)">Comparison</span>
+        <h3 class="heading--md" style="margin-bottom:var(--sp-2)">{{ .Title }}</h3>
+        <p class="body--sm">{{ .Description }}</p>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
