@@ -1,0 +1,101 @@
+{{ define "main" }}
+<div class="detail-hero">
+  <div class="container--narrow">
+    <span class="label">{{ .Params.category }}</span>
+    <h1 class="display display--lg">{{ .Title }}</h1>
+    <p class="body body--lg" style="margin-top:var(--sp-3)">{{ .Params.summary }}</p>
+    <div style="margin-top:var(--sp-4);display:flex;gap:var(--sp-2);flex-wrap:wrap">
+      {{ with .Params.evidence_strength }}
+      {{ if eq . "strong" }}<span class="badge badge--evidence-strong">Strong Evidence</span>{{ end }}
+      {{ if eq . "moderate" }}<span class="badge badge--evidence-moderate">Moderate Evidence</span>{{ end }}
+      {{ if eq . "limited" }}<span class="badge badge--evidence-limited">Limited Evidence</span>{{ end }}
+      {{ if eq . "emerging" }}<span class="badge badge--evidence-emerging">Emerging</span>{{ end }}
+      {{ end }}
+      <span class="badge badge--neutral">Oral Supplement</span>
+      {{ range .Params.tags }}<span class="badge badge--neutral">{{ . }}</span>{{ end }}
+    </div>
+  </div>
+</div>
+<div class="detail-content">
+  <div class="container--narrow">
+    {{ with .Params.what_it_does }}
+    <div class="detail-section reveal">
+      <h2 class="detail-section__title">What It Does</h2>
+      <div class="detail-section__body">{{ . | markdownify }}</div>
+    </div>
+    {{ end }}
+
+    {{ with .Params.skin_benefits }}
+    <div class="detail-section reveal">
+      <h2 class="detail-section__title">Skin-Specific Benefits</h2>
+      <div class="detail-section__body"><ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul></div>
+    </div>
+    {{ end }}
+
+    {{ with .Params.dosing }}
+    <div class="detail-section reveal">
+      <h2 class="detail-section__title">Dosing &amp; Timing</h2>
+      <div class="detail-section__body">{{ . | markdownify }}</div>
+    </div>
+    {{ end }}
+
+    {{ with .Params.forms }}
+    <div class="detail-section reveal">
+      <h2 class="detail-section__title">Recommended Forms</h2>
+      <div class="detail-section__body">{{ . | markdownify }}</div>
+    </div>
+    {{ end }}
+
+    {{ with .Params.topical_interaction }}
+    <div class="detail-section reveal">
+      <h2 class="detail-section__title">Oral + Topical Integration</h2>
+      <div class="alert alert--tip" style="margin-bottom:var(--sp-4)">
+        <div class="alert__title">This is what makes DermaProtocol different</div>
+        Most sites cover supplements OR skincare. We cover how they work together.
+      </div>
+      <div class="detail-section__body">{{ . | markdownify }}</div>
+    </div>
+    {{ end }}
+
+    {{ with .Params.caution_profile }}
+    <div class="detail-section reveal">
+      <h2 class="detail-section__title">Cautions &amp; Side Effects</h2>
+      <div class="alert alert--caution" style="margin-bottom:var(--sp-4)">{{ . | markdownify }}</div>
+    </div>
+    {{ end }}
+
+    {{ with .Params.who_benefits }}
+    <div class="detail-section reveal">
+      <h2 class="detail-section__title">Who May Benefit Most</h2>
+      <div class="detail-section__body">{{ . | markdownify }}</div>
+    </div>
+    {{ end }}
+
+    {{ with .Params.common_mistakes }}
+    <div class="detail-section reveal">
+      <h2 class="detail-section__title">Common Mistakes</h2>
+      <div class="detail-section__body"><ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul></div>
+    </div>
+    {{ end }}
+
+    {{ with .Params.key_studies }}
+    <div class="detail-section reveal">
+      <h2 class="detail-section__title">Key Research</h2>
+      <div class="detail-section__body">{{ . | markdownify }}</div>
+    </div>
+    {{ end }}
+
+    {{ with .Params.timeline }}
+    <div class="detail-section reveal">
+      <h2 class="detail-section__title">Realistic Timeline</h2>
+      <div class="detail-section__body">{{ . | markdownify }}</div>
+    </div>
+    {{ end }}
+
+    <div class="disclaimer reveal" style="margin-top:var(--sp-12)">
+      <div class="disclaimer__title">Disclaimer</div>
+      <p class="disclaimer__text">{{ with .Params.disclaimer }}{{ . }}{{ else }}Supplements are not substitutes for a balanced diet or professional medical advice. Consult a qualified healthcare provider before starting any supplement, especially if you are pregnant, nursing, taking medication, or have a medical condition.{{ end }}</p>
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="detail-hero">
+  <div class="container--narrow" style="text-align:center">
+    <span class="label">Trust &amp; Transparency</span>
+    <h1 class="display display--lg" style="margin-top:var(--sp-3)">{{ .Title }}</h1>
+    {{ with .Description }}<p class="body body--lg" style="margin-top:var(--sp-3)">{{ . }}</p>{{ end }}
+  </div>
+</div>
+<div class="detail-content">
+  <div class="container--narrow prose">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}

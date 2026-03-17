@@ -85,20 +85,7 @@
 
 <section class="section--sm">
   <div class="container">
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-8)">
-      <div>
-        <div class="section__header">
-          <span class="label reveal">Featured</span>
-          <h2 class="display--sm reveal reveal-d1" style="font-family:var(--font-display)">Comparisons</h2>
-        </div>
-        {{ range first 2 (where .Site.RegularPages "Section" "comparisons") }}
-        <a href="{{ .RelPermalink }}" class="card card--interactive reveal" style="margin-bottom:var(--sp-4)">
-          <span class="badge badge--info" style="margin-bottom:var(--sp-2)">Compare</span>
-          <h3 class="heading--sm">{{ .Title }}</h3>
-        </a>
-        {{ end }}
-        <a href="/comparisons/" class="btn btn--ghost" style="margin-top:var(--sp-2)">All Comparisons &rarr;</a>
-      </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:var(--sp-8)">
       <div>
         <div class="section__header">
           <span class="label reveal">Featured</span>
@@ -111,6 +98,32 @@
         </a>
         {{ end }}
         <a href="/ingredients/" class="btn btn--ghost" style="margin-top:var(--sp-2)">All Ingredients &rarr;</a>
+      </div>
+      <div>
+        <div class="section__header">
+          <span class="label reveal">Featured</span>
+          <h2 class="display--sm reveal reveal-d1" style="font-family:var(--font-display)">Supplements</h2>
+        </div>
+        {{ range first 3 (where .Site.RegularPages "Section" "supplements") }}
+        <a href="{{ .RelPermalink }}" class="card card--interactive reveal" style="margin-bottom:var(--sp-4)">
+          <span class="badge badge--accent" style="margin-bottom:var(--sp-2)">{{ .Params.category }}</span>
+          <h3 class="heading--sm">{{ .Title }}</h3>
+        </a>
+        {{ end }}
+        <a href="/supplements/" class="btn btn--ghost" style="margin-top:var(--sp-2)">All Supplements &rarr;</a>
+      </div>
+      <div>
+        <div class="section__header">
+          <span class="label reveal">Featured</span>
+          <h2 class="display--sm reveal reveal-d1" style="font-family:var(--font-display)">Comparisons</h2>
+        </div>
+        {{ range first 2 (where .Site.RegularPages "Section" "comparisons") }}
+        <a href="{{ .RelPermalink }}" class="card card--interactive reveal" style="margin-bottom:var(--sp-4)">
+          <span class="badge badge--info" style="margin-bottom:var(--sp-2)">Compare</span>
+          <h3 class="heading--sm">{{ .Title }}</h3>
+        </a>
+        {{ end }}
+        <a href="/comparisons/" class="btn btn--ghost" style="margin-top:var(--sp-2)">All Comparisons &rarr;</a>
       </div>
     </div>
   </div>

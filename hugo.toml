@@ -7,9 +7,18 @@ title = "DermaProtocol"
 
 summaryLength = 40
 
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
 [params]
   description = "Practical decision support for skincare, supplements, and nutrition. Build smarter routines without the hype."
   tagline = "Skincare and supplement decisions, simplified."
+  author = "DermaProtocol"
+  ogimage = "/images/og-default.png"
 
 [taxonomies]
   tag = "tags"
@@ -25,21 +34,29 @@ summaryLength = 40
     url = "/ingredients/"
     weight = 2
   [[menu.main]]
+    name = "Supplements"
+    url = "/supplements/"
+    weight = 3
+  [[menu.main]]
     name = "Comparisons"
     url = "/comparisons/"
-    weight = 3
+    weight = 4
   [[menu.main]]
     name = "Stack Checker"
     url = "/stack-checker/"
-    weight = 4
+    weight = 5
   [[menu.main]]
     name = "Protocols"
     url = "/protocols/"
-    weight = 5
+    weight = 6
+  [[menu.main]]
+    name = "Methodology"
+    url = "/methodology/"
+    weight = 7
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 6
+    weight = 8
 
 [markup]
   [markup.goldmark]
@@ -47,7 +64,7 @@ summaryLength = 40
       unsafe = true
 
 [outputs]
-  home = ["HTML"]
-  section = ["HTML"]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
   taxonomy = ["HTML"]
   term = ["HTML"]
