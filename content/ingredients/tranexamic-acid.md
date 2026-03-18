@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Tranexamic Acid"
 description: "A rising evidence base for melasma and pigmentation. Originally a blood-clotting agent, now one of the most promising topical brightening ingredients."
 category: "Brightening Agent"

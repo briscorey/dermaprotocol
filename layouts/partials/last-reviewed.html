@@ -1,5 +1,13 @@
 {{/* Last reviewed date — YMYL trust signal */}}
+{{ $reviewDate := "" }}
+{{ if not .Lastmod.IsZero }}
+  {{ $reviewDate = .Lastmod.Format "January 2006" }}
+{{ else if not .Date.IsZero }}
+  {{ $reviewDate = .Date.Format "January 2006" }}
+{{ else }}
+  {{ $reviewDate = "March 2026" }}
+{{ end }}
 <div style="margin-top:var(--sp-3);display:flex;align-items:center;gap:var(--sp-2)">
   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--text-muted)"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-  <span style="font-size:var(--fs-xs);color:var(--text-muted)">Last reviewed: {{ .Lastmod.Format "January 2006" }} · <a href="/methodology/" style="color:var(--accent)">Our methodology</a></span>
+  <span style="font-size:var(--fs-xs);color:var(--text-muted)">Last reviewed: {{ $reviewDate }} · <a href="/methodology/" style="color:var(--accent)">Our methodology</a></span>
 </div>

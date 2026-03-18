@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Nicotinamide (Vitamin B3 Oral)"
 description: "Oral niacinamide for UV damage prevention, skin cancer risk reduction, and systemic anti-inflammatory support."
 category: "Water-Soluble Vitamin"

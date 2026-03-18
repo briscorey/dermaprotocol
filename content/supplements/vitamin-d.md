@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Vitamin D"
 description: "Essential for skin barrier function, immune regulation, and wound healing. Deficiency is widespread and linked to multiple skin conditions."
 category: "Fat-Soluble Vitamin"

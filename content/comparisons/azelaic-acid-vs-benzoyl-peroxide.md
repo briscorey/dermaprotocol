@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Azelaic Acid vs Benzoyl Peroxide"
 description: "Two effective acne treatments with very different profiles. One is gentle and multi-tasking; the other is powerful but harsh. Which fits your skin?"
 ---

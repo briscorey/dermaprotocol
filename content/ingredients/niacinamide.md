@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Niacinamide"
 description: "A versatile, well-tolerated active used for oil control, barrier support, and pigmentation."
 category: "Topical Active"

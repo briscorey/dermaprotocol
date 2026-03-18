@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Zinc"
 description: "An essential mineral for wound healing, immune function, and acne management. Often deficient in acne patients."
 category: "Essential Mineral"

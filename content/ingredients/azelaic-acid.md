@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Azelaic Acid"
 description: "An underrated multi-tasker for acne, pigmentation, and rosacea with a favourable safety profile."
 category: "Topical Active"

@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Acne Protocol"
 description: "A structured, evidence-based approach to managing acne with a simple routine."
 goal: "Clear Skin"

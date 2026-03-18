@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Vitamin C vs Azelaic Acid"
 description: "Two strong options for pigmentation and brightening. Which one fits your situation?"
 ---

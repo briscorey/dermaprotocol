@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Hyaluronic Acid"
 description: "A powerful humectant that draws water into the skin. Universally tolerated, but the source of hydration matters."
 category: "Humectant"

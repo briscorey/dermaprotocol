@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Vitamin C (Oral)"
 description: "A collagen synthesis cofactor and systemic antioxidant. Essential for skin, but most people get enough from diet."
 category: "Water-Soluble Vitamin"

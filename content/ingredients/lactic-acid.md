@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Lactic Acid"
 description: "A gentler AHA that exfoliates and hydrates simultaneously. A strong choice for sensitive or dry skin types wanting chemical exfoliation."
 category: "Alpha Hydroxy Acid"

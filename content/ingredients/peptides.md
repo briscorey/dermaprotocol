@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Peptides"
 description: "Short chains of amino acids used as signalling molecules for collagen stimulation, barrier repair, and anti-ageing. Marketing often exceeds the evidence."
 category: "Signal Peptide"

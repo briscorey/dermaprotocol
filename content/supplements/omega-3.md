@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Omega-3 Fatty Acids"
 description: "EPA and DHA for systemic inflammation, skin barrier function, and UV-related skin damage. Strong general evidence with moderate skin-specific data."
 category: "Essential Fatty Acid"

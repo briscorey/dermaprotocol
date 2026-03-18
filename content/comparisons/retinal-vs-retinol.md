@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Retinal vs Retinol"
 description: "Two popular over-the-counter retinoids. How do they compare for efficacy, tolerance, and ease of use?"
 ---

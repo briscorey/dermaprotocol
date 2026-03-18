@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Rosacea Protocol"
 description: "A careful, minimal approach to managing rosacea-prone skin — protecting the barrier, reducing triggers, and using the few evidence-backed actives that are tolerated."
 goal: "Calm & Control"

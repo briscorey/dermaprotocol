@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Barrier Repair Protocol"
 description: "Rebuild a compromised skin barrier with a minimal, gentle approach focused on ceramides and simplicity."
 goal: "Barrier Health"

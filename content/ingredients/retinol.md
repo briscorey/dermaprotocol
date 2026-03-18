@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Retinol"
 description: "The gold standard for anti-ageing. Promotes cell turnover and collagen support, with a meaningful adjustment period."
 category: "Retinoid"

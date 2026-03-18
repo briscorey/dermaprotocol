@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Mandelic Acid"
 description: "The gentlest AHA. Ideal for sensitive skin, darker skin tones, and those prone to post-inflammatory hyperpigmentation."
 category: "Alpha Hydroxy Acid"

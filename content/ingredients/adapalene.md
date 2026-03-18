@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Adapalene"
 description: "A third-generation retinoid now available OTC. More stable, less irritating, and better tolerated than tretinoin — with strong evidence for acne."
 category: "Retinoid"

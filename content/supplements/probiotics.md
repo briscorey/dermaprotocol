@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Probiotics"
 description: "The gut-skin axis is real, but the evidence for specific probiotic strains improving specific skin conditions is still developing."
 category: "Gut-Skin Axis"

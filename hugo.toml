@@ -8,6 +8,7 @@ title = "DermaProtocol"
 summaryLength = 40
 
 enableRobotsTXT = true
+enableGitInfo = true
 
 [sitemap]
   changefreq = "weekly"

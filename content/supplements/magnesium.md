@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Magnesium"
 description: "An essential mineral involved in hundreds of enzymatic processes including skin barrier function, inflammation, and sleep quality — all of which affect skin health."
 category: "Essential Mineral"

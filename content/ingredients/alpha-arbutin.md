@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Alpha Arbutin"
 description: "A gentle, stable tyrosinase inhibitor for pigmentation. A strong alternative for those who cannot tolerate hydroquinone or vitamin C."
 category: "Brightening Agent"

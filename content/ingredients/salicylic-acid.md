@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Salicylic Acid (BHA)"
 description: "The oil-soluble exfoliant that penetrates pores. First-line OTC treatment for blackheads and oily skin."
 category: "Beta Hydroxy Acid"

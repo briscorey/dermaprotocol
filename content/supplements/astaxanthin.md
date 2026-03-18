@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Astaxanthin"
 description: "A potent carotenoid antioxidant with emerging evidence for UV protection, wrinkle reduction, and skin hydration."
 category: "Carotenoid Antioxidant"

@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Vitamin E (Tocopherol)"
 description: "A fat-soluble antioxidant that protects cell membranes and works synergistically with vitamin C. Primarily a supporting player rather than a standalone active."
 category: "Antioxidant"

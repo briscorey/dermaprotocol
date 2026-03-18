@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Ceramides"
 description: "The essential lipids that hold your skin barrier together. Not an active — a structural necessity."
 category: "Barrier Lipid"

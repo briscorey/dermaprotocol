@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Pigmentation Protocol"
 description: "A structured approach to addressing dark spots, uneven tone, and post-inflammatory hyperpigmentation."
 goal: "Even Tone"

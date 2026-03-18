@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Benzoyl Peroxide"
 description: "The most effective OTC antibacterial for acne. Kills C. acnes without promoting antibiotic resistance."
 category: "Antibacterial / Oxidising Agent"

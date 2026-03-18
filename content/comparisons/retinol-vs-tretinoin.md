@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Retinol vs Tretinoin"
 description: "OTC versus prescription retinoid. When to start with retinol and when to step up to tretinoin."
 ---

@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Topical Vitamin C vs Oral Vitamin C"
 description: "Same molecule, completely different delivery. Understanding why you likely need both — and what each one actually does for your skin."
 ---

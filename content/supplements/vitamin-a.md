@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Vitamin A (Oral)"
 description: "Essential for skin cell differentiation and immune function. Deficiency devastates skin, but supplementation in adequate individuals is risky."
 category: "Fat-Soluble Vitamin"

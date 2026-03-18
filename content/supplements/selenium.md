@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Selenium"
 description: "An essential trace mineral for antioxidant defence and thyroid function. Deficiency impairs skin, but more is not always better."
 category: "Essential Mineral"

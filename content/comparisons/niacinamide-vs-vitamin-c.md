@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Niacinamide vs Vitamin C"
 description: "Two of the most popular active ingredients. Can you use them together? Which should you choose if you can only pick one?"
 ---

@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Hyaluronic Acid vs Ceramides"
 description: "Two staple moisturising ingredients that work completely differently. One attracts water; the other holds your barrier together. You probably need both."
 ---

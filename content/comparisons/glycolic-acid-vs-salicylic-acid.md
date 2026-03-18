@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Glycolic Acid vs Salicylic Acid (AHA vs BHA)"
 description: "The two most popular chemical exfoliants. One works on the surface, the other works inside pores. Which do you need?"
 ---

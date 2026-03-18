@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Vitamin C (L-Ascorbic Acid)"
 description: "A potent antioxidant for brightening, photoprotection support, and collagen synthesis."
 category: "Antioxidant"

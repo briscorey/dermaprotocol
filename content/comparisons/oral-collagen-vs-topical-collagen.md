@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Oral Collagen vs Topical Collagen"
 description: "They share a name but work completely differently. Understanding which one actually reaches your dermis."
 ---

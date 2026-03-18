@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Glycolic Acid"
 description: "The smallest and most penetrating AHA. Effective for texture, pigmentation, and signs of ageing — but requires respect."
 category: "Alpha Hydroxy Acid"

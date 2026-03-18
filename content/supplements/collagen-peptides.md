@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Collagen Peptides"
 description: "Hydrolysed collagen for skin hydration, elasticity, and wrinkle depth. The evidence is more promising than most supplements — but expectations matter."
 category: "Protein / Peptide"

@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Tretinoin"
 description: "The gold-standard prescription retinoid. The most extensively studied topical for wrinkles, photoageing, and acne."
 category: "Prescription Retinoid"

@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Squalane"
 description: "A lightweight, stable emollient that mimics skin's natural lipids. Excellent for barrier repair and sealing in moisture without heaviness."
 category: "Emollient / Lipid"

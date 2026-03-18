@@ -1,4 +1,5 @@
 ---
+date: 2026-03-18
 title: "Centella Asiatica (Cica)"
 description: "A traditional wound-healing botanical with modern evidence for barrier repair, calming irritation, and supporting collagen."
 category: "Botanical / Calming"
