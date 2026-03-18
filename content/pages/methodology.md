@@ -18,22 +18,42 @@ Every ingredient and recommendation on DermaProtocol carries an evidence grade. 
 <div class="detail-section__body">
 
 <div class="alert alert--tip" style="margin-bottom:var(--sp-4)">
-<div class="alert__title"><span class="badge badge--evidence-strong">Strong</span></div>
+<div class="alert__title">
+  <div class="evidence-bar evidence-bar--strong">
+    <div class="evidence-bar__blocks"><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span></div>
+    <span class="evidence-bar__label">Strong Evidence</span>
+  </div>
+</div>
 Multiple randomised controlled trials (RCTs) in humans with consistent, meaningful effects. The evidence is robust enough to inform confident recommendations. Example: tretinoin for wrinkle reduction.
 </div>
 
 <div class="alert alert--info" style="margin-bottom:var(--sp-4)">
-<div class="alert__title"><span class="badge badge--evidence-moderate">Moderate</span></div>
+<div class="alert__title">
+  <div class="evidence-bar evidence-bar--moderate">
+    <div class="evidence-bar__blocks"><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span></div>
+    <span class="evidence-bar__label">Moderate Evidence</span>
+  </div>
+</div>
 Some RCTs with generally positive results, but limitations exist — small sample sizes, short durations, or inconsistent findings across studies. Useful evidence, but with caveats. Example: oral collagen peptides for skin hydration.
 </div>
 
 <div class="alert" style="margin-bottom:var(--sp-4);border-left:3px solid var(--text-muted);padding:var(--sp-4) var(--sp-5)">
-<div class="alert__title"><span class="badge badge--evidence-limited">Limited</span></div>
+<div class="alert__title">
+  <div class="evidence-bar evidence-bar--limited">
+    <div class="evidence-bar__blocks"><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span></div>
+    <span class="evidence-bar__label">Limited Evidence</span>
+  </div>
+</div>
 Few human studies, primarily observational data, or only pilot/preliminary trials. Promising but not yet reliable enough for confident recommendations. We note what exists and what is missing.
 </div>
 
 <div class="alert" style="border-left:3px solid var(--text-muted);padding:var(--sp-4) var(--sp-5)">
-<div class="alert__title"><span class="badge badge--evidence-emerging">Emerging</span></div>
+<div class="alert__title">
+  <div class="evidence-bar evidence-bar--emerging">
+    <div class="evidence-bar__blocks"><span class="evidence-bar__block evidence-bar__block--filled"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span><span class="evidence-bar__block"></span></div>
+    <span class="evidence-bar__label">Emerging</span>
+  </div>
+</div>
 Primarily in vitro (cell culture) or animal studies. May have theoretical basis but lacks meaningful human evidence. We include these ingredients only when they are widely discussed and consumer interest is high, with clear labelling of the evidence gap.
 </div>
 

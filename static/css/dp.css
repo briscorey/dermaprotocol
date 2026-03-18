@@ -965,3 +965,46 @@ button { font-family: inherit; cursor: pointer; }
 .checker-tag--supp { background:rgba(101,163,13,0.12); border-color:var(--green); color:var(--green); }
 .checker-result--synergy { border-left:3px solid var(--green); background:rgba(101,163,13,0.06); }
 .checker-result--synergy .checker-result__type { color:var(--green); text-transform:uppercase; font-size:0.7rem; letter-spacing:0.05em; font-weight:600; }
+
+/* ─── EVIDENCE BAR (visual fraction blocks) ─── */
+.evidence-bar { display:inline-flex; align-items:center; gap:var(--sp-3); }
+.evidence-bar__blocks { display:flex; gap:3px; }
+.evidence-bar__block {
+  width:20px; height:10px;
+  border-radius:2px;
+  background:var(--bg-secondary);
+  border:1px solid var(--border);
+  transition:background .2s, border-color .2s;
+}
+.evidence-bar__block--filled { border-color:transparent; }
+.evidence-bar__label {
+  font-size:var(--fs-xs);
+  font-weight:600;
+  letter-spacing:0.02em;
+  text-transform:uppercase;
+}
+
+/* Strong: green */
+.evidence-bar--strong .evidence-bar__block--filled { background:var(--green); }
+.evidence-bar--strong .evidence-bar__label { color:var(--green); }
+
+/* Moderate: amber/teal */
+.evidence-bar--moderate .evidence-bar__block--filled { background:var(--accent); }
+.evidence-bar--moderate .evidence-bar__label { color:var(--accent); }
+
+/* Limited: warm orange */
+.evidence-bar--limited .evidence-bar__block--filled { background:#e87f35; }
+.evidence-bar--limited .evidence-bar__label { color:#e87f35; }
+
+/* Emerging: muted red */
+.evidence-bar--emerging .evidence-bar__block--filled { background:#c44d4d; }
+.evidence-bar--emerging .evidence-bar__label { color:#c44d4d; }
+
+/* Compact variant for cards/lists */
+.evidence-bar--compact .evidence-bar__block { width:14px; height:7px; }
+.evidence-bar--compact .evidence-bar__label { font-size:0.65rem; }
+
+/* Responsive */
+@media (max-width:600px) {
+  .evidence-bar__block { width:16px; height:8px; }
+}

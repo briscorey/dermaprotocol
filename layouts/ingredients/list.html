@@ -17,9 +17,14 @@
           <p class="ingredient-card__summary">{{ .Params.summary }}</p>
           <div class="ingredient-card__meta">
             {{ with .Params.evidence_strength }}
-            {{ if eq . "strong" }}<span class="badge badge--evidence-strong">Strong</span>{{ end }}
-            {{ if eq . "moderate" }}<span class="badge badge--evidence-moderate">Moderate</span>{{ end }}
-            {{ if eq . "limited" }}<span class="badge badge--evidence-limited">Limited</span>{{ end }}
+            <div class="evidence-bar evidence-bar--compact {{ if eq . "strong" }}evidence-bar--strong{{ else if eq . "moderate" }}evidence-bar--moderate{{ else if eq . "limited" }}evidence-bar--limited{{ else }}evidence-bar--emerging{{ end }}">
+              <div class="evidence-bar__blocks">
+                {{ $filled := 1 }}
+                {{ if eq . "strong" }}{{ $filled = 8 }}{{ else if eq . "moderate" }}{{ $filled = 6 }}{{ else if eq . "limited" }}{{ $filled = 3 }}{{ else }}{{ $filled = 1 }}{{ end }}
+                {{ range seq 10 }}{{ if le . $filled }}<span class="evidence-bar__block evidence-bar__block--filled"></span>{{ else }}<span class="evidence-bar__block"></span>{{ end }}{{ end }}
+              </div>
+              <span class="evidence-bar__label">{{ if eq . "strong" }}Strong{{ else if eq . "moderate" }}Moderate{{ else if eq . "limited" }}Limited{{ else }}Emerging{{ end }}</span>
+            </div>
             {{ end }}
           </div>
         </div>

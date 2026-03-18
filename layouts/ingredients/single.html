@@ -4,15 +4,14 @@
     <span class="label">{{ .Params.category }}</span>
     <h1 class="display display--lg">{{ .Title }}</h1>
     <p class="body body--lg" style="margin-top:var(--sp-3)">{{ .Params.summary }}</p>
-    <div style="margin-top:var(--sp-4);display:flex;gap:var(--sp-2);flex-wrap:wrap">
-      {{ with .Params.evidence_strength }}
-      {{ if eq . "strong" }}<span class="badge badge--evidence-strong">Strong Evidence</span>{{ end }}
-      {{ if eq . "moderate" }}<span class="badge badge--evidence-moderate">Moderate Evidence</span>{{ end }}
-      {{ if eq . "limited" }}<span class="badge badge--evidence-limited">Limited Evidence</span>{{ end }}
-      {{ if eq . "emerging" }}<span class="badge badge--evidence-emerging">Emerging</span>{{ end }}
-      {{ end }}
+    <div style="margin-top:var(--sp-4);display:flex;gap:var(--sp-2);flex-wrap:wrap;align-items:center">
       {{ range .Params.tags }}<span class="badge badge--neutral">{{ . }}</span>{{ end }}
     </div>
+    {{ with .Params.evidence_strength }}
+    <div style="margin-top:var(--sp-4)">
+      {{ partial "evidence-bar.html" (dict "strength" . "label" true) }}
+    </div>
+    {{ end }}
     {{ partial "last-reviewed.html" . }}
   </div>
 </div>

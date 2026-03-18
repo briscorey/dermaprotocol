@@ -1,0 +1,43 @@
+{{/* Evidence strength visual bar
+     Usage: {{ partial "evidence-bar.html" (dict "strength" .Params.evidence_strength "label" true) }}
+     Strengths: strong (8/10), moderate (6/10), limited (3/10), emerging (1/10)
+*/}}
+{{ $strength := .strength | default "emerging" }}
+{{ $showLabel := .label | default true }}
+
+{{ $filled := 1 }}
+{{ $class := "evidence-bar--emerging" }}
+{{ $labelText := "Emerging" }}
+
+{{ if eq $strength "strong" }}
+  {{ $filled = 8 }}
+  {{ $class = "evidence-bar--strong" }}
+  {{ $labelText = "Strong Evidence" }}
+{{ else if eq $strength "moderate" }}
+  {{ $filled = 6 }}
+  {{ $class = "evidence-bar--moderate" }}
+  {{ $labelText = "Moderate Evidence" }}
+{{ else if eq $strength "limited" }}
+  {{ $filled = 3 }}
+  {{ $class = "evidence-bar--limited" }}
+  {{ $labelText = "Limited Evidence" }}
+{{ else }}
+  {{ $filled = 1 }}
+  {{ $class = "evidence-bar--emerging" }}
+  {{ $labelText = "Emerging" }}
+{{ end }}
+
+<div class="evidence-bar {{ $class }}">
+  <div class="evidence-bar__blocks">
+    {{ range seq 10 }}
+      {{ if le . $filled }}
+        <span class="evidence-bar__block evidence-bar__block--filled"></span>
+      {{ else }}
+        <span class="evidence-bar__block"></span>
+      {{ end }}
+    {{ end }}
+  </div>
+  {{ if $showLabel }}
+  <span class="evidence-bar__label">{{ $labelText }}</span>
+  {{ end }}
+</div>
