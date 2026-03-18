@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>
+    (function(){var t=localStorage.getItem('dp-theme');if(t){document.documentElement.setAttribute('data-theme',t)}else if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches){document.documentElement.setAttribute('data-theme','dark')}})();
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ if not .IsHome }}{{ .Title }} — {{ end }}{{ .Site.Title }}</title>
@@ -178,6 +181,23 @@
     document.querySelectorAll('.reveal').forEach(function(el){ro.observe(el);});
     var burger=document.getElementById('burger'),mob=document.getElementById('mobileNav');
     if(burger&&mob){burger.addEventListener('click',function(){var o=mob.classList.toggle('active');burger.setAttribute('aria-expanded',o);});mob.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){mob.classList.remove('active');burger.setAttribute('aria-expanded','false');});});}
+
+    /* Theme toggle */
+    (function(){
+      function toggleTheme(){
+        var current=document.documentElement.getAttribute('data-theme');
+        var next;
+        if(current==='dark'){next='light'}
+        else if(current==='light'){next='dark'}
+        else{next=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches?'light':'dark'}
+        document.documentElement.setAttribute('data-theme',next);
+        localStorage.setItem('dp-theme',next);
+      }
+      var btn1=document.getElementById('themeToggle');
+      var btn2=document.getElementById('themeToggleMobile');
+      if(btn1)btn1.addEventListener('click',toggleTheme);
+      if(btn2)btn2.addEventListener('click',toggleTheme);
+    })();
   </script>
   {{ block "scripts" . }}{{ end }}
 </body>
