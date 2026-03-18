@@ -14,6 +14,7 @@
       <span class="badge badge--neutral">Oral Supplement</span>
       {{ range .Params.tags }}<span class="badge badge--neutral">{{ . }}</span>{{ end }}
     </div>
+    {{ partial "last-reviewed.html" . }}
   </div>
 </div>
 <div class="detail-content">
@@ -95,6 +96,29 @@
     <div class="disclaimer reveal" style="margin-top:var(--sp-12)">
       <div class="disclaimer__title">Disclaimer</div>
       <p class="disclaimer__text">{{ with .Params.disclaimer }}{{ . }}{{ else }}Supplements are not substitutes for a balanced diet or professional medical advice. Consult a qualified healthcare provider before starting any supplement, especially if you are pregnant, nursing, taking medication, or have a medical condition.{{ end }}</p>
+    </div>
+
+    <div class="detail-section reveal" style="margin-top:var(--sp-12)">
+      <h2 class="detail-section__title">Explore More</h2>
+      <div class="detail-section__body">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-4)">
+          <div>
+            <h4 style="font-size:var(--fs-sm);color:var(--text-muted);margin-bottom:var(--sp-3)">Other Supplements</h4>
+            {{ $currentPage := . }}
+            {{ range first 4 (where (where .Site.RegularPages "Section" "supplements") ".Title" "!=" .Title) }}
+            <a href="{{ .RelPermalink }}" style="display:block;margin-bottom:var(--sp-2);font-size:var(--fs-sm);color:var(--accent)">{{ .Title }}</a>
+            {{ end }}
+            <a href="/supplements/" style="display:block;margin-top:var(--sp-2);font-size:var(--fs-xs);color:var(--text-muted)">All Supplements &rarr;</a>
+          </div>
+          <div>
+            <h4 style="font-size:var(--fs-sm);color:var(--text-muted);margin-bottom:var(--sp-3)">Topical Ingredients &amp; Tools</h4>
+            {{ range first 3 (where .Site.RegularPages "Section" "ingredients") }}
+            <a href="{{ .RelPermalink }}" style="display:block;margin-bottom:var(--sp-2);font-size:var(--fs-sm);color:var(--accent)">{{ .Title }}</a>
+            {{ end }}
+            <a href="/stack-checker/" style="display:block;margin-bottom:var(--sp-2);font-size:var(--fs-sm);color:var(--accent)">Check supplement-topical interactions</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

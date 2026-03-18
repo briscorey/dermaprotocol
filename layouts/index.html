@@ -11,6 +11,34 @@
   </div>
 </section>
 
+<section style="padding:var(--sp-8) 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+  <div class="container">
+    <div style="display:flex;justify-content:center;gap:var(--sp-10);flex-wrap:wrap;text-align:center">
+      <div class="reveal">
+        <div style="font-family:var(--font-display);font-size:var(--fs-2xl);font-weight:600;color:var(--text)">{{ len (where .Site.RegularPages "Section" "ingredients") }}</div>
+        <div style="font-size:var(--fs-sm);color:var(--text-muted);margin-top:var(--sp-1)">Ingredient Profiles</div>
+      </div>
+      <div class="reveal reveal-d1">
+        <div style="font-family:var(--font-display);font-size:var(--fs-2xl);font-weight:600;color:var(--text)">{{ len (where .Site.RegularPages "Section" "supplements") }}</div>
+        <div style="font-size:var(--fs-sm);color:var(--text-muted);margin-top:var(--sp-1)">Supplement Profiles</div>
+      </div>
+      <div class="reveal reveal-d2">
+        <div style="font-family:var(--font-display);font-size:var(--fs-2xl);font-weight:600;color:var(--text)">{{ len (where .Site.RegularPages "Section" "protocols") }}</div>
+        <div style="font-size:var(--fs-sm);color:var(--text-muted);margin-top:var(--sp-1)">Goal-Based Protocols</div>
+      </div>
+      <div class="reveal reveal-d3">
+        <div style="font-family:var(--font-display);font-size:var(--fs-2xl);font-weight:600;color:var(--text)">{{ len (where .Site.RegularPages "Section" "comparisons") }}</div>
+        <div style="font-size:var(--fs-sm);color:var(--text-muted);margin-top:var(--sp-1)">Side-by-Side Comparisons</div>
+      </div>
+      <div class="reveal reveal-d3">
+        <div style="font-family:var(--font-display);font-size:var(--fs-2xl);font-weight:600;color:var(--text)">4</div>
+        <div style="font-size:var(--fs-sm);color:var(--text-muted);margin-top:var(--sp-1)">Evidence Grades</div>
+      </div>
+    </div>
+    <p style="text-align:center;color:var(--text-muted);font-size:var(--fs-xs);margin-top:var(--sp-5)">Every claim graded by evidence strength. No product sales. No sponsorships. <a href="/methodology/" style="color:var(--accent)">See our methodology</a>.</p>
+  </div>
+</section>
+
 <section class="section" style="padding-top:0">
   <div class="container">
     <div class="section__header" style="text-align:center">

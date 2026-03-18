@@ -13,6 +13,7 @@
       {{ end }}
       {{ range .Params.tags }}<span class="badge badge--neutral">{{ . }}</span>{{ end }}
     </div>
+    {{ partial "last-reviewed.html" . }}
   </div>
 </div>
 <div class="detail-content">
@@ -76,6 +77,37 @@
     <div class="disclaimer reveal" style="margin-top:var(--sp-12)">
       <div class="disclaimer__title">Disclaimer</div>
       <p class="disclaimer__text">{{ with .Params.disclaimer }}{{ . }}{{ else }}This information is educational and not a substitute for professional medical advice. Results vary. Consult a qualified healthcare provider before starting any new skincare or supplement routine.{{ end }}</p>
+    </div>
+
+    {{/* Related content cross-links */}}
+    {{ $currentTags := .Params.tags }}
+    {{ $currentPage := . }}
+    {{ $related := where (where .Site.RegularPages "Section" "ingredients") ".Title" "!=" .Title }}
+    {{ $comparisons := where .Site.RegularPages "Section" "comparisons" }}
+    {{ $supplements := where .Site.RegularPages "Section" "supplements" }}
+    {{ $protocols := where .Site.RegularPages "Section" "protocols" }}
+
+    <div class="detail-section reveal" style="margin-top:var(--sp-12)">
+      <h2 class="detail-section__title">Explore More</h2>
+      <div class="detail-section__body">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-4)">
+          <div>
+            <h4 style="font-size:var(--fs-sm);color:var(--text-muted);margin-bottom:var(--sp-3)">Related Ingredients</h4>
+            {{ range first 4 $related }}
+            <a href="{{ .RelPermalink }}" style="display:block;margin-bottom:var(--sp-2);font-size:var(--fs-sm);color:var(--accent)">{{ .Title }}</a>
+            {{ end }}
+            <a href="/ingredients/" style="display:block;margin-top:var(--sp-2);font-size:var(--fs-xs);color:var(--text-muted)">All Ingredients &rarr;</a>
+          </div>
+          <div>
+            <h4 style="font-size:var(--fs-sm);color:var(--text-muted);margin-bottom:var(--sp-3)">Tools &amp; Protocols</h4>
+            <a href="/stack-checker/" style="display:block;margin-bottom:var(--sp-2);font-size:var(--fs-sm);color:var(--accent)">Check this in your stack</a>
+            <a href="/routine-builder/" style="display:block;margin-bottom:var(--sp-2);font-size:var(--fs-sm);color:var(--accent)">Build a routine</a>
+            {{ range first 2 $protocols }}
+            <a href="{{ .RelPermalink }}" style="display:block;margin-bottom:var(--sp-2);font-size:var(--fs-sm);color:var(--accent)">{{ .Title }}</a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

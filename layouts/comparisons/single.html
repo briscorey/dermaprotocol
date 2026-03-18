@@ -4,6 +4,7 @@
     <span class="label">Comparison</span>
     <h1 class="display display--lg">{{ .Title }}</h1>
     {{ with .Description }}<p class="body body--lg" style="margin-top:var(--sp-3)">{{ . }}</p>{{ end }}
+    {{ partial "last-reviewed.html" . }}
   </div>
 </div>
 <div class="detail-content">
