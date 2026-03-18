@@ -954,3 +954,14 @@ button { font-family: inherit; cursor: pointer; }
   .hero__title { font-size: clamp(2rem, 8vw, 3rem); }
   .display--lg { font-size: var(--fs-2xl); }
 }
+
+/* ─── STACK CHECKER v2 ADDITIONS ─── */
+.checker-suggestions { position:absolute; left:0; right:0; background:var(--bg-secondary); border:1px solid var(--border); border-radius:0 0 var(--radius-md) var(--radius-md); z-index:10; max-height:240px; overflow-y:auto; }
+.checker-suggestion { padding:var(--sp-3) var(--sp-4); cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:var(--fs-sm); color:var(--text-secondary); transition:background .15s; }
+.checker-suggestion:hover { background:var(--bg); }
+.checker-suggestion__cat { font-size:0.7rem; text-transform:uppercase; letter-spacing:0.05em; padding:2px 8px; border-radius:var(--radius-sm); background:var(--bg); color:var(--text-muted); }
+.checker-suggestion__cat--supp { background:rgba(101,163,13,0.12); color:var(--green); }
+.checker-input { position:relative; }
+.checker-tag--supp { background:rgba(101,163,13,0.12); border-color:var(--green); color:var(--green); }
+.checker-result--synergy { border-left:3px solid var(--green); background:rgba(101,163,13,0.06); }
+.checker-result--synergy .checker-result__type { color:var(--green); text-transform:uppercase; font-size:0.7rem; letter-spacing:0.05em; font-weight:600; }
