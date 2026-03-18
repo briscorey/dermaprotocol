@@ -382,7 +382,7 @@ a{color:inherit;text-decoration:none}ul,ol{list-style:none}img{max-width:100%;di
 
 /* Tool strip */
 .hp-explore__tools{
-  display:grid;grid-template-columns:repeat(5,1fr);gap:var(--sp-4);
+  display:grid;grid-template-columns:repeat(4,1fr);gap:var(--sp-4);
   margin-top:var(--sp-8);padding-top:var(--sp-8);border-top:1px solid var(--border-light);
 }
 .hp-explore__tool{
