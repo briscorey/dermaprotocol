@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Sensitive Skin Protocol"
+seo_title: "Sensitive Skin Protocol: Low-Irritation Routine & Ingredients"
 description: "A minimal, low-irritation approach for reactive skin. Fewer products, gentler actives, and patience."
 goal: "Calm & Protect"
 ---

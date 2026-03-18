@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Vitamin C (L-Ascorbic Acid)"
+seo_title: "Vitamin C Serum for Skin: Forms, Evidence & How to Choose"
 description: "A potent antioxidant for brightening, photoprotection support, and collagen synthesis."
 category: "Antioxidant"
 summary: "L-ascorbic acid is the most studied form of topical vitamin C. It may support collagen synthesis, brighten skin tone, and provide additional photoprotection when used under sunscreen."

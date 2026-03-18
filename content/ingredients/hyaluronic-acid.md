@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Hyaluronic Acid"
+seo_title: "Hyaluronic Acid for Skin: Benefits, How It Works & Tips"
 description: "A powerful humectant that draws water into the skin. Universally tolerated, but the source of hydration matters."
 category: "Humectant"
 summary: "Hyaluronic acid (HA) is a glycosaminoglycan naturally present in skin that can hold up to 1,000 times its weight in water. Topical HA draws moisture into the epidermis, improving hydration, plumpness, and fine line appearance — but it needs to be sealed in with an occlusive or moisturiser."

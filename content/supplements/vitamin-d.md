@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Vitamin D"
+seo_title: "Vitamin D for Skin: Sunscreen Paradox, Benefits & Dosing"
 description: "Essential for skin barrier function, immune regulation, and wound healing. Deficiency is widespread and linked to multiple skin conditions."
 category: "Fat-Soluble Vitamin"
 summary: "Vitamin D is critical for keratinocyte differentiation, antimicrobial peptide production, and barrier function. Deficiency is common — especially in people who wear daily sunscreen — and correcting it may improve outcomes for acne, eczema, psoriasis, and general skin health."

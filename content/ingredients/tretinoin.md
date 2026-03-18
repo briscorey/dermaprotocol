@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Tretinoin"
+seo_title: "Tretinoin: The Gold Standard Retinoid (Complete Guide)"
 description: "The gold-standard prescription retinoid. The most extensively studied topical for wrinkles, photoageing, and acne."
 category: "Prescription Retinoid"
 summary: "Tretinoin (all-trans retinoic acid) is the most studied topical anti-ageing ingredient in dermatology. It is the active form of vitamin A — no conversion required — and has strong evidence for reducing wrinkles, improving skin texture, treating acne, and reversing photoageing."

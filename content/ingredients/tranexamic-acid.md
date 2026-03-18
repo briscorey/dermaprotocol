@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Tranexamic Acid"
+seo_title: "Tranexamic Acid for Pigmentation and Melasma: Evidence Guide"
 description: "A rising evidence base for melasma and pigmentation. Originally a blood-clotting agent, now one of the most promising topical brightening ingredients."
 category: "Brightening Agent"
 summary: "Tranexamic acid inhibits melanin production by blocking the plasminogen-to-plasmin conversion that activates melanocytes. It has growing RCT evidence for melasma treatment (both oral and topical) and is well tolerated with minimal irritation."

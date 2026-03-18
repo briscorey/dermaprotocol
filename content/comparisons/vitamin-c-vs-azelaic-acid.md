@@ -1,7 +1,13 @@
 ---
 date: 2026-03-18
 title: "Vitamin C vs Azelaic Acid"
+seo_title: "Vitamin C vs Azelaic Acid: Which Is Better for Your Skin?"
 description: "Two strong options for pigmentation and brightening. Which one fits your situation?"
+faq:
+  - q: "Is vitamin C or azelaic acid better for dark spots?"
+    a: "Both inhibit melanin production through different pathways and are effective for hyperpigmentation. Azelaic acid is generally better tolerated, works at a wider pH range, and is safe during pregnancy. Vitamin C provides additional antioxidant benefits but is less stable."
+  - q: "Can I use vitamin C and azelaic acid together?"
+    a: "Yes, they work synergistically for pigmentation because they target melanin production through different mechanisms. Apply vitamin C first (lower pH), then azelaic acid. Using both provides stronger brightening than either alone."
 ---
 
 <div class="detail-section">

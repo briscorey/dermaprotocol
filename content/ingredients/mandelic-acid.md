@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Mandelic Acid"
+seo_title: "Mandelic Acid: The Gentlest AHA for Sensitive Skin"
 description: "The gentlest AHA. Ideal for sensitive skin, darker skin tones, and those prone to post-inflammatory hyperpigmentation."
 category: "Alpha Hydroxy Acid"
 summary: "Mandelic acid is the largest common AHA (molecular weight 152 Da), giving it the slowest penetration and lowest irritation potential. It has evidence for acne, pigmentation, and texture with reduced risk of post-inflammatory hyperpigmentation — making it particularly valuable for Fitzpatrick skin types IV–VI."

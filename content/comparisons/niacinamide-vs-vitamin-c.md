@@ -1,7 +1,13 @@
 ---
 date: 2026-03-18
 title: "Niacinamide vs Vitamin C"
+seo_title: "Niacinamide vs Vitamin C: Can You Use Both?"
 description: "Two of the most popular active ingredients. Can you use them together? Which should you choose if you can only pick one?"
+faq:
+  - q: "Can I use niacinamide and vitamin C together?"
+    a: "Yes. The old claim that they cannot be combined has been debunked. Modern formulations are pH-stable and the two ingredients complement each other. Vitamin C provides antioxidant protection while niacinamide supports barrier function and oil control."
+  - q: "Which is better for brightening skin?"
+    a: "Vitamin C (L-ascorbic acid) is more potent for brightening because it directly inhibits tyrosinase and scavenges free radicals. Niacinamide provides milder brightening through a different mechanism. Using both delivers the strongest results."
 ---
 
 <div class="detail-section">

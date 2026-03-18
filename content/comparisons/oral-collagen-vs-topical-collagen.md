@@ -1,7 +1,13 @@
 ---
 date: 2026-03-18
 title: "Oral Collagen vs Topical Collagen"
+seo_title: "Oral vs Topical Collagen: Which Actually Works?"
 description: "They share a name but work completely differently. Understanding which one actually reaches your dermis."
+faq:
+  - q: "Does oral collagen actually work for skin?"
+    a: "Moderate evidence from randomised controlled trials shows that hydrolysed collagen peptides at 5 to 10 grams daily can improve skin hydration and elasticity after 8 to 12 weeks. The peptides are absorbed and reach the dermis, where they may stimulate fibroblast activity."
+  - q: "Is topical collagen effective?"
+    a: "Topical collagen molecules are generally too large to penetrate the skin barrier effectively. They can provide surface-level hydration but do not contribute to dermal collagen levels. Oral collagen peptides have better evidence for reaching the skin structurally."
 ---
 
 <div class="detail-section">

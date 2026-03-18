@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Centella Asiatica (Cica)"
+seo_title: "Centella Asiatica (Cica) for Skin: Benefits & Evidence"
 description: "A traditional wound-healing botanical with modern evidence for barrier repair, calming irritation, and supporting collagen."
 category: "Botanical / Calming"
 summary: "Centella asiatica extract and its active compounds (madecassoside, asiaticoside, asiatic acid, madecassic acid) have moderate evidence for wound healing, barrier repair, and anti-inflammatory effects. It is one of the best-tolerated calming ingredients available."

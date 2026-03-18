@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Astaxanthin"
+seo_title: "Astaxanthin for Skin: Benefits, Dosing & Evidence"
 description: "A potent carotenoid antioxidant with emerging evidence for UV protection, wrinkle reduction, and skin hydration."
 category: "Carotenoid Antioxidant"
 summary: "Astaxanthin is a xanthophyll carotenoid with exceptionally strong antioxidant activity. Limited but promising RCT data supports modest improvements in skin elasticity, wrinkle depth, and UV-induced damage at 4–12mg daily."

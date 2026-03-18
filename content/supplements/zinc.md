@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Zinc"
+seo_title: "Zinc for Acne and Skin: Evidence, Dosing & Best Forms"
 description: "An essential mineral for wound healing, immune function, and acne management. Often deficient in acne patients."
 category: "Essential Mineral"
 summary: "Zinc plays a critical role in skin cell turnover, wound healing, and immune regulation. Oral zinc supplementation has moderate evidence for reducing acne severity, particularly in people with low baseline zinc status."

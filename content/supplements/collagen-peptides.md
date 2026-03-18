@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Collagen Peptides"
+seo_title: "Collagen Supplements for Skin: Do They Work? Evidence Review"
 description: "Hydrolysed collagen for skin hydration, elasticity, and wrinkle depth. The evidence is more promising than most supplements — but expectations matter."
 category: "Protein / Peptide"
 summary: "Hydrolysed collagen peptides (typically 2.5–15g daily) have moderate evidence for improving skin hydration and elasticity, with some data supporting reduced wrinkle depth after 8–12 weeks."

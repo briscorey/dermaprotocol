@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Peptides"
+seo_title: "Peptides for Skin: Do They Work? Evidence & Types Explained"
 description: "Short chains of amino acids used as signalling molecules for collagen stimulation, barrier repair, and anti-ageing. Marketing often exceeds the evidence."
 category: "Signal Peptide"
 summary: "Peptides are short amino acid chains that act as cell-signalling molecules. In skincare, they are used to stimulate collagen production, support barrier repair, and reduce fine line appearance. Evidence is moderate for specific peptides but marketing often overstates their effects."

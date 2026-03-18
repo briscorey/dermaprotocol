@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Glycolic Acid"
+seo_title: "Glycolic Acid for Skin: Benefits, Usage & Side Effects"
 description: "The smallest and most penetrating AHA. Effective for texture, pigmentation, and signs of ageing — but requires respect."
 category: "Alpha Hydroxy Acid"
 summary: "Glycolic acid is the smallest alpha hydroxy acid, allowing it to penetrate most effectively into the epidermis. It has strong evidence for improving skin texture, reducing fine lines, treating acne, and fading pigmentation at concentrations of 5–10% (OTC) or higher (professional peels)."

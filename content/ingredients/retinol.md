@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Retinol"
+seo_title: "Retinol for Skin: Complete Evidence-Based Guide"
 description: "The gold standard for anti-ageing. Promotes cell turnover and collagen support, with a meaningful adjustment period."
 category: "Retinoid"
 summary: "An over-the-counter retinoid that promotes cell turnover and may support collagen production. Strong evidence for wrinkles and texture, but requires patience and careful introduction."

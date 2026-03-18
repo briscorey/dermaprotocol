@@ -1,7 +1,15 @@
 ---
 date: 2026-03-18
 title: "Glycolic Acid vs Salicylic Acid (AHA vs BHA)"
+seo_title: "Glycolic Acid vs Salicylic Acid: AHA vs BHA Explained"
 description: "The two most popular chemical exfoliants. One works on the surface, the other works inside pores. Which do you need?"
+faq:
+  - q: "Should I use glycolic acid or salicylic acid for acne?"
+    a: "Salicylic acid is generally preferred for acne because it is oil-soluble and penetrates into pores to clear congestion and blackheads. Glycolic acid works on the skin surface and is better suited for texture, pigmentation, and anti-ageing concerns."
+  - q: "Can I use glycolic acid and salicylic acid together?"
+    a: "Using both in the same routine increases irritation risk significantly. If you want to use both, alternate them on different nights or use salicylic acid as a cleanser and glycolic acid as a leave-on treatment on separate days."
+  - q: "Which acid is better for sensitive skin?"
+    a: "Neither is ideal for very sensitive skin. If you must choose, salicylic acid at low concentrations (0.5 to 1 percent) tends to be less irritating than glycolic acid because it has anti-inflammatory properties. Mandelic acid is the gentlest AHA alternative."
 ---
 
 <div class="detail-section">

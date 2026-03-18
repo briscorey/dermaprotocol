@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Selenium"
+seo_title: "Selenium for Skin: Antioxidant Protection & Dosing"
 description: "An essential trace mineral for antioxidant defence and thyroid function. Deficiency impairs skin, but more is not always better."
 category: "Essential Mineral"
 summary: "Selenium is a cofactor for glutathione peroxidase — one of the body's most important antioxidant enzymes. Deficiency is linked to impaired skin health, but supplementation beyond adequate status has limited additional skin benefit and carries toxicity risk at high doses."

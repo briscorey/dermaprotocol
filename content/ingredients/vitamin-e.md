@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Vitamin E (Tocopherol)"
+seo_title: "Vitamin E for Skin: Antioxidant Benefits & Evidence"
 description: "A fat-soluble antioxidant that protects cell membranes and works synergistically with vitamin C. Primarily a supporting player rather than a standalone active."
 category: "Antioxidant"
 summary: "Topical vitamin E (tocopherol) is a fat-soluble antioxidant that protects cell membrane lipids from oxidative damage. Its most valuable role is as a synergist — it significantly enhances the photoprotective efficacy of vitamin C and helps stabilise formulations."

@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Salicylic Acid (BHA)"
+seo_title: "Salicylic Acid (BHA): Benefits for Acne, Pores & Blackheads"
 description: "The oil-soluble exfoliant that penetrates pores. First-line OTC treatment for blackheads and oily skin."
 category: "Beta Hydroxy Acid"
 summary: "Salicylic acid is a lipophilic (oil-soluble) exfoliant that can penetrate into pores to dissolve sebum plugs and dead cell buildup. It has strong evidence for comedonal acne (blackheads, whiteheads) and moderate evidence for inflammatory acne."

@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Alpha Arbutin"
+seo_title: "Alpha Arbutin for Skin: Benefits, Evidence & How It Works"
 description: "A gentle, stable tyrosinase inhibitor for pigmentation. A strong alternative for those who cannot tolerate hydroquinone or vitamin C."
 category: "Brightening Agent"
 summary: "Alpha arbutin is a glycosylated form of hydroquinone that inhibits tyrosinase (the key enzyme in melanin production) without the irritation or safety concerns of hydroquinone. It has moderate evidence for reducing pigmentation and is well tolerated by sensitive skin."

@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Vitamin A (Oral)"
+seo_title: "Vitamin A (Oral) for Skin: Benefits, Dosing & Safety"
 description: "Essential for skin cell differentiation and immune function. Deficiency devastates skin, but supplementation in adequate individuals is risky."
 category: "Fat-Soluble Vitamin"
 summary: "Vitamin A (retinol, retinyl palmitate, or beta-carotene) is essential for keratinocyte differentiation, immune function, and vision. Deficiency causes severe skin problems, but oral vitamin A supplementation carries real toxicity risk and is rarely needed when diet is adequate."

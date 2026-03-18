@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Anti-Ageing Protocol"
+seo_title: "Anti-Ageing Protocol: Retinoids, Collagen & Evidence-Based Routine"
 description: "A complete evidence-based protocol integrating topical skincare, supplements, and nutrition for skin ageing prevention and improvement."
 goal: "Anti-Ageing"
 ---

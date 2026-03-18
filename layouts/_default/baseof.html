@@ -6,12 +6,12 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ if not .IsHome }}{{ .Title }} — {{ end }}{{ .Site.Title }}</title>
+  <title>{{ if not .IsHome }}{{ with .Params.seo_title }}{{ . }}{{ else }}{{ .Title }}{{ end }} — {{ end }}{{ .Site.Title }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <link rel="canonical" href="{{ .Permalink }}">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{{ if not .IsHome }}{{ .Title }} — {{ end }}{{ .Site.Title }}">
+  <meta property="og:title" content="{{ if not .IsHome }}{{ with .Params.seo_title }}{{ . }}{{ else }}{{ .Title }}{{ end }} — {{ end }}{{ .Site.Title }}">
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
   <meta property="og:url" content="{{ .Permalink }}">
@@ -19,7 +19,7 @@
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ if not .IsHome }}{{ .Title }} — {{ end }}{{ .Site.Title }}">
+  <meta name="twitter:title" content="{{ if not .IsHome }}{{ with .Params.seo_title }}{{ . }}{{ else }}{{ .Title }}{{ end }} — {{ end }}{{ .Site.Title }}">
   <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 
   <!-- Sitemap reference -->
@@ -137,6 +137,26 @@
     }
   }
   </script>
+  {{ with .Params.faq }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {{ range $i, $item := . }}{{ if $i }},{{ end }}
+      {
+        "@type": "Question",
+        "name": "{{ $item.q }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ $item.a }}"
+        }
+      }
+      {{ end }}
+    ]
+  }
+  </script>
+  {{ end }}
   {{ else if and (eq .Section "blog") .IsPage }}
   <script type="application/ld+json">
   {
@@ -145,12 +165,13 @@
     "headline": "{{ .Title }}",
     "description": "{{ .Description }}",
     "url": "{{ .Permalink }}",
-    "datePublished": "{{ .Date.Format "2006-01-02" }}",
-    "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ .Permalink }}" },
+    "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+    "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
     "author": {
-      "@type": "Organization",
-      "name": "DermaProtocol",
-      "url": "https://dermaprotocol.org"
+      "@type": "Person",
+      "name": "Corey Zocchi",
+      "url": "https://dermaprotocol.org/about/"
     },
     "publisher": {
       "@type": "Organization",
@@ -162,6 +183,25 @@
       "name": "DermaProtocol",
       "url": "https://dermaprotocol.org"
     }
+  }
+  </script>
+  {{ end }}
+
+  <!-- BreadcrumbList Schema -->
+  {{ if not .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ .Site.BaseURL }}" }
+      {{ if .Section }}
+      ,{ "@type": "ListItem", "position": 2, "name": "{{ .Section | title }}", "item": "{{ .Site.BaseURL }}{{ .Section }}/" }
+      {{ end }}
+      {{ if .IsPage }}
+      ,{ "@type": "ListItem", "position": 3, "name": "{{ .Title }}" }
+      {{ end }}
+    ]
   }
   </script>
   {{ end }}

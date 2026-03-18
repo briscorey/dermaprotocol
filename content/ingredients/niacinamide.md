@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Niacinamide"
+seo_title: "Niacinamide for Skin: Benefits, Evidence & How to Use It"
 description: "A versatile, well-tolerated active used for oil control, barrier support, and pigmentation."
 category: "Topical Active"
 summary: "A form of vitamin B3 often used for oil control, pore appearance, barrier support, and mild pigmentation improvement. Well-tolerated by most skin types."

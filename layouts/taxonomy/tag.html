@@ -1,0 +1,21 @@
+{{ define "head" }}
+<meta name="robots" content="noindex, follow">
+{{ end }}
+{{ define "main" }}
+<div class="detail-hero" style="text-align:center">
+  <div class="container--narrow">
+    <span class="label">Tag</span>
+    <h1 class="display display--md" style="margin-top:var(--sp-3)">{{ .Title }}</h1>
+  </div>
+</div>
+<div class="section">
+  <div class="container--narrow">
+    {{ range .Pages }}
+    <a href="{{ .RelPermalink }}" class="card card--interactive" style="margin-bottom:var(--sp-4);display:block">
+      <h3 class="heading--sm" style="margin-bottom:var(--sp-2)">{{ .Title }}</h3>
+      <p class="body--sm">{{ .Description }}</p>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

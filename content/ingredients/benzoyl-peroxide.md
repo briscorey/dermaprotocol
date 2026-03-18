@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Benzoyl Peroxide"
+seo_title: "Benzoyl Peroxide: How It Works, Side Effects & Best Use"
 description: "The most effective OTC antibacterial for acne. Kills C. acnes without promoting antibiotic resistance."
 category: "Antibacterial / Oxidising Agent"
 summary: "Benzoyl peroxide is the most effective OTC ingredient for killing Cutibacterium acnes bacteria. Unlike topical antibiotics, bacteria do not develop resistance to benzoyl peroxide — making it a cornerstone of long-term acne management."

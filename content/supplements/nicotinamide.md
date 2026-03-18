@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Nicotinamide (Vitamin B3 Oral)"
+seo_title: "Nicotinamide (Vitamin B3) for Skin Cancer Prevention and Barrier"
 description: "Oral niacinamide for UV damage prevention, skin cancer risk reduction, and systemic anti-inflammatory support."
 category: "Water-Soluble Vitamin"
 summary: "Oral nicotinamide (vitamin B3, 500mg twice daily) has strong evidence for reducing non-melanoma skin cancers and actinic keratoses in high-risk individuals. It supports cellular energy production and DNA repair after UV exposure."

@@ -1,7 +1,13 @@
 ---
 date: 2026-03-18
 title: "Azelaic Acid vs Benzoyl Peroxide"
+seo_title: "Azelaic Acid vs Benzoyl Peroxide: Best for Acne?"
 description: "Two effective acne treatments with very different profiles. One is gentle and multi-tasking; the other is powerful but harsh. Which fits your skin?"
+faq:
+  - q: "Is azelaic acid or benzoyl peroxide better for acne?"
+    a: "Both are effective first-line acne treatments. Benzoyl peroxide is stronger at killing acne-causing bacteria and works faster, but causes more dryness and bleaches fabrics. Azelaic acid is gentler, also helps with pigmentation, and is safe during pregnancy."
+  - q: "Can I use azelaic acid and benzoyl peroxide together?"
+    a: "They can be used in the same routine but combining them in the same application increases irritation and dryness. Using benzoyl peroxide in the morning and azelaic acid at night, or alternating days, is a safer approach."
 ---
 
 <div class="detail-section">

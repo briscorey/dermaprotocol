@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Acne Protocol"
+seo_title: "Acne Skincare Protocol: Complete Routine, Supplements & Diet"
 description: "A structured, evidence-based approach to managing acne with a simple routine."
 goal: "Clear Skin"
 ---

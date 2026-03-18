@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Adapalene"
+seo_title: "Adapalene for Skin: Benefits, Side Effects & How to Use"
 description: "A third-generation retinoid now available OTC. More stable, less irritating, and better tolerated than tretinoin — with strong evidence for acne."
 category: "Retinoid"
 summary: "Adapalene is a synthetic retinoid that selectively binds to RAR-beta and RAR-gamma receptors. It is more photostable than tretinoin, causes less irritation, and is now available over-the-counter at 0.1% in many countries. Strong evidence for acne; moderate evidence for photoageing."

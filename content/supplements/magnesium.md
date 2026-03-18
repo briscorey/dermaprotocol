@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Magnesium"
+seo_title: "Magnesium for Skin and Sleep: Benefits, Forms & Dosing"
 description: "An essential mineral involved in hundreds of enzymatic processes including skin barrier function, inflammation, and sleep quality — all of which affect skin health."
 category: "Essential Mineral"
 summary: "Magnesium is involved in 600+ enzymatic reactions including DNA repair, inflammation regulation, and barrier function. Deficiency is common and may contribute to inflammatory skin conditions. Direct skin evidence is limited, but systemic benefits are well established."

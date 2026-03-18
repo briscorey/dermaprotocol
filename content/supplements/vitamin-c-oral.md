@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Vitamin C (Oral)"
+seo_title: "Oral Vitamin C for Skin: Collagen, Absorption & Evidence"
 description: "A collagen synthesis cofactor and systemic antioxidant. Essential for skin, but most people get enough from diet."
 category: "Water-Soluble Vitamin"
 summary: "Oral vitamin C (ascorbic acid) is essential for collagen synthesis, wound healing, and systemic antioxidant defence. Deficiency impairs skin health, but supplementation beyond adequate intake has limited additional skin benefits in healthy people."

@@ -11,6 +11,23 @@
   <div class="container--narrow">
     {{ .Content }}
 
+    {{ with .Params.faq }}
+    <div class="detail-section" style="margin-top:var(--sp-12)">
+      <h2 class="detail-section__title">Frequently Asked Questions</h2>
+      <div class="detail-section__body">
+        {{ range . }}
+        <details style="margin-bottom:var(--sp-4);padding:var(--sp-5) var(--sp-6);background:var(--bg-card);border:1px solid var(--border-light);border-radius:var(--r-lg);cursor:pointer">
+          <summary style="font-weight:600;font-size:var(--fs-base);color:var(--text);list-style:none;display:flex;justify-content:space-between;align-items:center">
+            {{ .q }}
+            <span style="color:var(--text-muted);font-size:var(--fs-lg);flex-shrink:0;margin-left:var(--sp-4)">+</span>
+          </summary>
+          <p style="margin-top:var(--sp-4);font-size:var(--fs-sm);color:var(--text-secondary);line-height:1.75">{{ .a }}</p>
+        </details>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
     <div class="disclaimer reveal" style="margin-top:var(--sp-12)">
       <div class="disclaimer__title">Disclaimer</div>
       <p class="disclaimer__text">This comparison is educational and simplified. Individual responses vary. Consult a healthcare provider for personalised advice.</p>

@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Sunscreen (SPF)"
+seo_title: "Sunscreen: The Most Important Skincare Step (Evidence Guide)"
 description: "The single highest-impact step in any skincare routine. No active ingredient outperforms consistent sun protection."
 category: "Photoprotection"
 summary: "Broad-spectrum sunscreen (SPF 30–50+) is the most evidence-backed intervention for preventing photoageing, hyperpigmentation, and skin cancer. It protects the results of every other active in your routine. There is no close second."

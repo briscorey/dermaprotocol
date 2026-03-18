@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Lactic Acid"
+seo_title: "Lactic Acid for Skin: Benefits, Exfoliation & Sensitive Skin"
 description: "A gentler AHA that exfoliates and hydrates simultaneously. A strong choice for sensitive or dry skin types wanting chemical exfoliation."
 category: "Alpha Hydroxy Acid"
 summary: "Lactic acid is an AHA with a larger molecular size than glycolic acid, resulting in slower penetration and less irritation. It has the added benefit of being a natural moisturising factor (NMF) component, providing exfoliation and hydration in one step."

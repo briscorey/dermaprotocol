@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Azelaic Acid"
+seo_title: "Azelaic Acid for Skin: Acne, Pigmentation & Rosacea Guide"
 description: "An underrated multi-tasker for acne, pigmentation, and rosacea with a favourable safety profile."
 category: "Topical Active"
 summary: "A dicarboxylic acid with anti-inflammatory, antibacterial, and pigmentation-reducing properties. Often underused despite solid evidence, especially for acne and melasma."

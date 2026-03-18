@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Squalane"
+seo_title: "Squalane for Skin: Benefits, How to Use & Who It Is For"
 description: "A lightweight, stable emollient that mimics skin's natural lipids. Excellent for barrier repair and sealing in moisture without heaviness."
 category: "Emollient / Lipid"
 summary: "Squalane is the hydrogenated (stable) form of squalene, a lipid naturally produced by skin. It is an excellent lightweight emollient that reinforces the skin barrier, reduces transepidermal water loss, and is non-comedogenic despite being an oil. Well tolerated by virtually all skin types."

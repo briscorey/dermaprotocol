@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Omega-3 Fatty Acids"
+seo_title: "Omega-3 for Skin: Anti-Inflammatory Benefits & Evidence"
 description: "EPA and DHA for systemic inflammation, skin barrier function, and UV-related skin damage. Strong general evidence with moderate skin-specific data."
 category: "Essential Fatty Acid"
 summary: "Omega-3s (EPA and DHA from fish oil or algae) have strong evidence for anti-inflammatory effects and moderate evidence for specific skin outcomes including UV protection support, barrier function, and acne-related inflammation."

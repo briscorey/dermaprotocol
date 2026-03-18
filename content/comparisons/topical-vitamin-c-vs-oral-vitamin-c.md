@@ -1,7 +1,13 @@
 ---
 date: 2026-03-18
 title: "Topical Vitamin C vs Oral Vitamin C"
+seo_title: "Topical vs Oral Vitamin C: Do You Need Both?"
 description: "Same molecule, completely different delivery. Understanding why you likely need both — and what each one actually does for your skin."
+faq:
+  - q: "Do I need both topical and oral vitamin C?"
+    a: "Yes, they are complementary rather than redundant. Topical vitamin C reaches 20 to 40 times higher concentrations in the skin than oral supplementation can achieve. Oral vitamin C provides the systemic cofactor needed for collagen synthesis throughout the body."
+  - q: "Can oral vitamin C replace a vitamin C serum?"
+    a: "No. Oral vitamin C cannot achieve the skin concentrations needed for direct antioxidant photoprotection and tyrosinase inhibition. A vitamin C serum applied topically is necessary for these benefits. Oral vitamin C supports collagen synthesis from the inside."
 ---
 
 <div class="detail-section">

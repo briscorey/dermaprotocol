@@ -1,6 +1,7 @@
 ---
 date: 2026-03-18
 title: "Probiotics"
+seo_title: "Probiotics for Skin: Gut-Skin Axis, Acne & Evidence"
 description: "The gut-skin axis is real, but the evidence for specific probiotic strains improving specific skin conditions is still developing."
 category: "Gut-Skin Axis"
 summary: "Probiotics (live beneficial microorganisms) have emerging evidence for improving acne, atopic dermatitis, and rosacea through the gut-skin axis. Strain specificity matters enormously — not all probiotics help skin, and the research is still catching up to the marketing."

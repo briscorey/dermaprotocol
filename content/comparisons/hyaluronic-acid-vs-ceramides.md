@@ -1,7 +1,13 @@
 ---
 date: 2026-03-18
 title: "Hyaluronic Acid vs Ceramides"
+seo_title: "Hyaluronic Acid vs Ceramides: Which Do You Need?"
 description: "Two staple moisturising ingredients that work completely differently. One attracts water; the other holds your barrier together. You probably need both."
+faq:
+  - q: "Do I need hyaluronic acid or ceramides?"
+    a: "They serve different functions and work best together. Hyaluronic acid is a humectant that draws water into the skin. Ceramides are barrier lipids that prevent water from escaping. Apply hyaluronic acid to damp skin first, then a ceramide moisturiser on top to lock it in."
+  - q: "Can hyaluronic acid dry out your skin?"
+    a: "In very dry or low-humidity environments, hyaluronic acid can draw moisture from deeper skin layers instead of the air, potentially making dryness worse. Sealing it with a ceramide moisturiser or occlusive prevents this."
 ---
 
 <div class="detail-section">

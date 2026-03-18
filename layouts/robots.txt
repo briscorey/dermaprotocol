@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Low-value taxonomy pages
+Disallow: /tags/
+Disallow: /categories/
+Disallow: /pages/
+
+Sitemap: https://dermaprotocol.org/sitemap.xml
