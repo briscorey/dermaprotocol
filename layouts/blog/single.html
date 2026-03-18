@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="detail-hero">
+  <div class="container--narrow">
+    <span class="label">Blog</span>
+    <h1 class="display display--lg">{{ .Title }}</h1>
+    {{ with .Description }}<p class="body body--lg" style="margin-top:var(--sp-3)">{{ . }}</p>{{ end }}
+    <div style="margin-top:var(--sp-4);display:flex;gap:var(--sp-3);align-items:center;flex-wrap:wrap">
+      {{ range .Params.tags }}<span class="badge badge--neutral">{{ . }}</span>{{ end }}
+      <span class="body--sm" style="color:var(--text-muted)">{{ .Date.Format "2 January 2006" }}</span>
+      {{ with .Params.read_time }}<span class="body--sm" style="color:var(--text-muted)">{{ . }} min read</span>{{ end }}
+    </div>
+  </div>
+</div>
+<div class="detail-content">
+  <div class="container--narrow prose">
+    {{ .Content }}
+
+    <div class="disclaimer reveal" style="margin-top:var(--sp-12)">
+      <div class="disclaimer__title">Disclaimer</div>
+      <p class="disclaimer__text">This article is educational content. It does not constitute medical advice. Always consult a qualified healthcare provider before making changes to your skincare, supplement, or health routine.</p>
+    </div>
+  </div>
+</div>
+{{ end }}

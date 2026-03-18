@@ -131,6 +131,32 @@
 
 <hr class="divider">
 
+{{ $blogs := where .Site.RegularPages "Section" "blog" }}
+{{ if $blogs }}
+<section class="section--sm">
+  <div class="container" style="max-width:700px">
+    <div class="section__header" style="text-align:center">
+      <span class="label reveal">Latest</span>
+      <h2 class="display--sm reveal reveal-d1" style="font-family:var(--font-display)">From the Blog</h2>
+    </div>
+    {{ range first 2 ($blogs.ByDate.Reverse) }}
+    <a href="{{ .RelPermalink }}" class="card card--interactive reveal" style="margin-bottom:var(--sp-4);display:block">
+      <div style="display:flex;gap:var(--sp-3);align-items:center;margin-bottom:var(--sp-2)">
+        {{ range .Params.tags }}<span class="badge badge--neutral" style="font-size:0.7rem">{{ . }}</span>{{ end }}
+      </div>
+      <h3 class="heading--sm" style="margin-bottom:var(--sp-2)">{{ .Title }}</h3>
+      <p class="body--sm" style="color:var(--text-secondary)">{{ .Description }}</p>
+    </a>
+    {{ end }}
+    <div style="text-align:center;margin-top:var(--sp-4)">
+      <a href="/blog/" class="btn btn--ghost">All Articles &rarr;</a>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<hr class="divider">
+
 <section class="section--sm">
   <div class="container" style="max-width:700px">
     <div class="disclaimer reveal">

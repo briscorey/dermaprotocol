@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="detail-hero">
+  <div class="container">
+    <span class="label">Evidence-Based Insights</span>
+    <h1 class="display display--lg">Blog</h1>
+    <p class="body body--lg" style="margin-top:var(--sp-3)">In-depth articles on skincare science, supplement research, and practical skin health decisions.</p>
+  </div>
+</div>
+<div class="section">
+  <div class="container" style="max-width:780px">
+    {{ range .Pages.ByDate.Reverse }}
+    <a href="{{ .RelPermalink }}" class="card card--interactive reveal" style="margin-bottom:var(--sp-6);display:block">
+      <div style="display:flex;gap:var(--sp-3);align-items:center;margin-bottom:var(--sp-2)">
+        {{ range .Params.tags }}<span class="badge badge--neutral" style="font-size:0.7rem">{{ . }}</span>{{ end }}
+        <span class="body--sm" style="color:var(--text-muted)">{{ .Date.Format "2 Jan 2006" }}</span>
+      </div>
+      <h3 class="heading--md" style="margin-bottom:var(--sp-2)">{{ .Title }}</h3>
+      <p class="body--sm" style="color:var(--text-secondary)">{{ .Description }}</p>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
