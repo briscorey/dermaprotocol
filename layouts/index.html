@@ -1,64 +1,40 @@
 {{ define "main" }}
-<!-- ═══ HERO — Full-width dark section with gradient ═══ -->
+<!-- ═══ HERO — Dark gradient with inline stats ═══ -->
 <section class="hp-hero">
   <div class="hp-hero__inner">
     <div class="hp-hero__badge reveal">Evidence-Based Skin Health</div>
     <h1 class="hp-hero__title reveal reveal-d1">Your skin deserves<br><em>better evidence.</em></h1>
-    <p class="hp-hero__sub reveal reveal-d2">DermaProtocol is the only platform that grades skincare ingredients, oral supplements, and nutrition for skin health — and shows you how they work together. No product sales. No sponsorships. Just research.</p>
+    <p class="hp-hero__sub reveal reveal-d2">The only platform that grades skincare ingredients, oral supplements, and nutrition for skin — and shows how they work together.</p>
     <div class="hp-hero__actions reveal reveal-d3">
       <a href="/routine-builder/" class="btn btn--hero">Build Your Routine</a>
       <a href="/stack-checker/" class="btn btn--hero-ghost">Check Your Stack</a>
     </div>
-  </div>
-</section>
-
-<!-- ═══ STATS BAR — Floating card over hero/content boundary ═══ -->
-<section class="hp-stats">
-  <div class="container">
-    <div class="hp-stats__card reveal">
-      <div class="hp-stats__item">
-        <span class="hp-stats__number">{{ len (where .Site.RegularPages "Section" "ingredients") }}</span>
-        <span class="hp-stats__label">Ingredients</span>
-      </div>
-      <div class="hp-stats__divider"></div>
-      <div class="hp-stats__item">
-        <span class="hp-stats__number">{{ len (where .Site.RegularPages "Section" "supplements") }}</span>
-        <span class="hp-stats__label">Supplements</span>
-      </div>
-      <div class="hp-stats__divider"></div>
-      <div class="hp-stats__item">
-        <span class="hp-stats__number">{{ len (where .Site.RegularPages "Section" "protocols") }}</span>
-        <span class="hp-stats__label">Protocols</span>
-      </div>
-      <div class="hp-stats__divider"></div>
-      <div class="hp-stats__item">
-        <span class="hp-stats__number">{{ len (where .Site.RegularPages "Section" "comparisons") }}</span>
-        <span class="hp-stats__label">Comparisons</span>
-      </div>
-      <div class="hp-stats__divider"></div>
-      <div class="hp-stats__item">
-        <span class="hp-stats__number">4</span>
-        <span class="hp-stats__label">Evidence Grades</span>
-      </div>
+    <div class="hp-hero__stats reveal reveal-d4">
+      <span>{{ len (where .Site.RegularPages "Section" "ingredients") }} Ingredients</span>
+      <span class="hp-hero__dot"></span>
+      <span>{{ len (where .Site.RegularPages "Section" "supplements") }} Supplements</span>
+      <span class="hp-hero__dot"></span>
+      <span>{{ len (where .Site.RegularPages "Section" "protocols") }} Protocols</span>
+      <span class="hp-hero__dot"></span>
+      <span>{{ len (where .Site.RegularPages "Section" "comparisons") }} Comparisons</span>
     </div>
   </div>
 </section>
 
-<!-- ═══ WHAT MAKES US DIFFERENT — 3-pillar feature section ═══ -->
-<section class="hp-pillars">
+<!-- ═══ EXPLORE — Three pillars with integrated tool CTAs ═══ -->
+<section class="hp-explore">
   <div class="container">
-    <div class="hp-pillars__header reveal">
-      <span class="label">What Makes This Different</span>
+    <div class="hp-explore__header reveal">
+      <span class="label">Explore DermaProtocol</span>
       <h2 class="display display--md">Three pillars. One integrated approach.</h2>
-      <p class="body--lg">Every other site covers skincare OR supplements. We cover both — and how they interact.</p>
     </div>
-    <div class="hp-pillars__grid">
+    <div class="hp-explore__grid">
       <a href="/ingredients/" class="hp-pillar reveal">
         <div class="hp-pillar__icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
         </div>
         <h3 class="hp-pillar__title">Topical Ingredients</h3>
-        <p class="hp-pillar__desc">{{ len (where .Site.RegularPages "Section" "ingredients") }} evidence-graded profiles covering retinoids, acids, antioxidants, barrier ingredients, and more. Every claim backed by research.</p>
+        <p class="hp-pillar__desc">{{ len (where .Site.RegularPages "Section" "ingredients") }} evidence-graded profiles. Retinoids, acids, antioxidants, barrier ingredients — every claim backed by research.</p>
         <span class="hp-pillar__link">Explore Ingredients &rarr;</span>
       </a>
       <a href="/supplements/" class="hp-pillar hp-pillar--accent reveal reveal-d1">
@@ -66,7 +42,7 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
         </div>
         <h3 class="hp-pillar__title">Oral Supplements</h3>
-        <p class="hp-pillar__desc">{{ len (where .Site.RegularPages "Section" "supplements") }} supplement profiles with dosing, forms, and — uniquely — how each one interacts with your topical skincare routine.</p>
+        <p class="hp-pillar__desc">{{ len (where .Site.RegularPages "Section" "supplements") }} supplement profiles with dosing, forms, and how each interacts with your topical skincare routine.</p>
         <span class="hp-pillar__link">Explore Supplements &rarr;</span>
       </a>
       <a href="/protocols/" class="hp-pillar reveal reveal-d2">
@@ -74,45 +50,39 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15a2.25 2.25 0 011.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C7.822 4.02 6.9 5.012 6.9 6.198v.855m5.65-3.217c.376.023.75.05 1.124.08 1.404.105 2.326 1.097 2.326 2.283V18a2.25 2.25 0 01-2.25 2.25H8.25A2.25 2.25 0 016 18V6.198"/></svg>
         </div>
         <h3 class="hp-pillar__title">Complete Protocols</h3>
-        <p class="hp-pillar__desc">{{ len (where .Site.RegularPages "Section" "protocols") }} goal-based protocols integrating topicals, supplements, and lifestyle — covering acne, ageing, rosacea, and more.</p>
+        <p class="hp-pillar__desc">{{ len (where .Site.RegularPages "Section" "protocols") }} goal-based protocols integrating topicals, supplements, and lifestyle for acne, ageing, rosacea, and more.</p>
         <span class="hp-pillar__link">View Protocols &rarr;</span>
       </a>
     </div>
-  </div>
-</section>
-
-<!-- ═══ TOOLS — Two-up interactive section with dark background ═══ -->
-<section class="hp-tools">
-  <div class="container">
-    <div class="hp-tools__header reveal">
-      <span class="label" style="color:var(--accent-light)">Interactive Tools</span>
-      <h2 class="display display--md" style="color:var(--text-inverse)">Build. Check. Understand.</h2>
-    </div>
-    <div class="hp-tools__grid">
-      <a href="/routine-builder/" class="hp-tool reveal">
-        <div class="hp-tool__badge">Routine Builder</div>
-        <h3 class="hp-tool__title">Build a protocol for your goal</h3>
-        <p class="hp-tool__desc">Select your skin concern — acne, pigmentation, ageing, rosacea, or maintenance — and get a structured AM/PM routine with evidence-graded actives.</p>
-        <span class="hp-tool__cta">Start Building &rarr;</span>
+    <!-- Tool CTAs inline -->
+    <div class="hp-explore__tools reveal">
+      <a href="/protocol-generator/" class="hp-explore__tool">
+        <strong>Protocol Generator</strong><span>Answer 10 questions, get a complete personalised protocol</span>
       </a>
-      <a href="/stack-checker/" class="hp-tool reveal reveal-d1">
-        <div class="hp-tool__badge">Stack Checker</div>
-        <h3 class="hp-tool__title">Check your full stack for conflicts</h3>
-        <p class="hp-tool__desc">Add your topical ingredients and oral supplements. Get instant feedback on irritation risks, redundancies, and — uniquely — oral-topical synergies.</p>
-        <span class="hp-tool__cta">Check Your Stack &rarr;</span>
+      <a href="/nutrition-scorer/" class="hp-explore__tool">
+        <strong>Nutrition Scorer</strong><span>Score your diet across 11 skin-critical nutrients</span>
+      </a>
+      <a href="/ingredient-decoder/" class="hp-explore__tool">
+        <strong>Ingredient Decoder</strong><span>Paste any ingredient list — get it fully decoded</span>
+      </a>
+      <a href="/stack-checker/" class="hp-explore__tool">
+        <strong>Stack Checker</strong><span>Check topicals + supplements for conflicts and synergies</span>
+      </a>
+      <a href="/routine-builder/" class="hp-explore__tool">
+        <strong>Routine Builder</strong><span>Build an AM/PM routine for your skin concern</span>
       </a>
     </div>
   </div>
 </section>
 
-<!-- ═══ GOALS — Card grid ═══ -->
-<section class="section">
+<!-- ═══ GOALS — Quick self-selection ═══ -->
+<section class="hp-goals">
   <div class="container">
-    <div class="section__header" style="text-align:center">
+    <div style="text-align:center;margin-bottom:var(--sp-10)">
       <span class="label reveal">Start With a Goal</span>
-      <h2 class="display display--md reveal reveal-d1">What are you working on?</h2>
+      <h2 class="display display--md reveal reveal-d1" style="margin-top:var(--sp-3)">What are you working on?</h2>
     </div>
-    <div class="grid grid--3" style="margin-top:var(--sp-8)">
+    <div class="grid grid--3">
       <a href="/protocols/acne/" class="goal-card reveal">
         <div class="goal-card__icon">&#128308;</div>
         <div class="goal-card__title">Acne &amp; Breakouts</div>
@@ -126,7 +96,7 @@
       <a href="/protocols/anti-ageing/" class="goal-card reveal reveal-d2">
         <div class="goal-card__icon">&#10024;</div>
         <div class="goal-card__title">Anti-Ageing</div>
-        <div class="goal-card__desc">Retinoids, antioxidants, collagen support — inside and out.</div>
+        <div class="goal-card__desc">Retinoids, antioxidants, collagen — inside and out.</div>
       </a>
       <a href="/protocols/rosacea/" class="goal-card reveal">
         <div class="goal-card__icon">&#127801;</div>
@@ -147,45 +117,27 @@
   </div>
 </section>
 
-<!-- ═══ EVIDENCE SYSTEM — Methodology showcase ═══ -->
-<section class="hp-evidence">
+<!-- ═══ EVIDENCE + FEATURED — Merged compact section ═══ -->
+<section class="hp-browse">
   <div class="container">
-    <div class="hp-evidence__layout">
-      <div class="hp-evidence__text reveal">
-        <span class="label">Our Evidence System</span>
-        <h2 class="display display--md" style="margin-top:var(--sp-4)">Every claim is graded.</h2>
-        <p class="body--lg" style="margin-top:var(--sp-5)">We assign evidence grades per specific outcome — not per ingredient. Retinol might earn <strong>Strong</strong> for wrinkles but <strong>Limited</strong> for pigmentation. You always know exactly how confident the research is.</p>
-        <a href="/methodology/" class="btn btn--secondary" style="margin-top:var(--sp-6)">Read Our Methodology</a>
+    <!-- Evidence bar inline -->
+    <div class="hp-browse__evidence reveal">
+      <div class="hp-browse__evidence-text">
+        <h3>Every claim is graded by evidence strength</h3>
+        <p>We assign grades per specific outcome, not per ingredient. <a href="/methodology/">Read our methodology &rarr;</a></p>
       </div>
-      <div class="hp-evidence__grades reveal reveal-d1">
-        <div class="hp-evidence__grade">
-          <div class="evidence-bar evidence-bar--strong"><div class="evidence-bar__blocks">{{ range seq 10 }}{{ if le . 8 }}<span class="evidence-bar__block evidence-bar__block--filled"></span>{{ else }}<span class="evidence-bar__block"></span>{{ end }}{{ end }}</div><span class="evidence-bar__label">Strong</span></div>
-          <p>Multiple RCTs with consistent results</p>
-        </div>
-        <div class="hp-evidence__grade">
-          <div class="evidence-bar evidence-bar--moderate"><div class="evidence-bar__blocks">{{ range seq 10 }}{{ if le . 6 }}<span class="evidence-bar__block evidence-bar__block--filled"></span>{{ else }}<span class="evidence-bar__block"></span>{{ end }}{{ end }}</div><span class="evidence-bar__label">Moderate</span></div>
-          <p>Some RCTs, generally positive but with caveats</p>
-        </div>
-        <div class="hp-evidence__grade">
-          <div class="evidence-bar evidence-bar--limited"><div class="evidence-bar__blocks">{{ range seq 10 }}{{ if le . 3 }}<span class="evidence-bar__block evidence-bar__block--filled"></span>{{ else }}<span class="evidence-bar__block"></span>{{ end }}{{ end }}</div><span class="evidence-bar__label">Limited</span></div>
-          <p>Few human studies, primarily preliminary</p>
-        </div>
-        <div class="hp-evidence__grade">
-          <div class="evidence-bar evidence-bar--emerging"><div class="evidence-bar__blocks">{{ range seq 10 }}{{ if le . 1 }}<span class="evidence-bar__block evidence-bar__block--filled"></span>{{ else }}<span class="evidence-bar__block"></span>{{ end }}{{ end }}</div><span class="evidence-bar__label">Emerging</span></div>
-          <p>Mostly in vitro or animal studies</p>
-        </div>
+      <div class="hp-browse__evidence-bars">
+        <div class="evidence-bar evidence-bar--strong evidence-bar--compact"><div class="evidence-bar__blocks">{{ range seq 10 }}{{ if le . 8 }}<span class="evidence-bar__block evidence-bar__block--filled"></span>{{ else }}<span class="evidence-bar__block"></span>{{ end }}{{ end }}</div><span class="evidence-bar__label">Strong</span></div>
+        <div class="evidence-bar evidence-bar--moderate evidence-bar--compact"><div class="evidence-bar__blocks">{{ range seq 10 }}{{ if le . 6 }}<span class="evidence-bar__block evidence-bar__block--filled"></span>{{ else }}<span class="evidence-bar__block"></span>{{ end }}{{ end }}</div><span class="evidence-bar__label">Moderate</span></div>
+        <div class="evidence-bar evidence-bar--limited evidence-bar--compact"><div class="evidence-bar__blocks">{{ range seq 10 }}{{ if le . 3 }}<span class="evidence-bar__block evidence-bar__block--filled"></span>{{ else }}<span class="evidence-bar__block"></span>{{ end }}{{ end }}</div><span class="evidence-bar__label">Limited</span></div>
+        <div class="evidence-bar evidence-bar--emerging evidence-bar--compact"><div class="evidence-bar__blocks">{{ range seq 10 }}{{ if le . 1 }}<span class="evidence-bar__block evidence-bar__block--filled"></span>{{ else }}<span class="evidence-bar__block"></span>{{ end }}{{ end }}</div><span class="evidence-bar__label">Emerging</span></div>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- ═══ FEATURED CONTENT ═══ -->
-<section class="section--sm" style="background:var(--bg-warm)">
-  <div class="container">
-    <div class="featured-grid">
+    <!-- Featured content grid -->
+    <div class="featured-grid" style="margin-top:var(--sp-12)">
       <div class="featured-col">
         <div class="featured-col__header">
-          <span class="label reveal">Explore</span>
+          <span class="label reveal">Browse</span>
           <h2 class="display--sm reveal reveal-d1" style="font-family:var(--font-display)">Ingredients</h2>
         </div>
         {{ range first 4 (where .Site.RegularPages "Section" "ingredients") }}
@@ -194,11 +146,11 @@
           <span class="featured-item__title">{{ .Title }}</span>
         </a>
         {{ end }}
-        <a href="/ingredients/" class="btn btn--ghost" style="margin-top:var(--sp-3)">All {{ len (where .Site.RegularPages "Section" "ingredients") }} Ingredients &rarr;</a>
+        <a href="/ingredients/" class="btn btn--ghost" style="margin-top:var(--sp-3)">All {{ len (where .Site.RegularPages "Section" "ingredients") }} &rarr;</a>
       </div>
       <div class="featured-col">
         <div class="featured-col__header">
-          <span class="label reveal">Explore</span>
+          <span class="label reveal">Browse</span>
           <h2 class="display--sm reveal reveal-d1" style="font-family:var(--font-display)">Supplements</h2>
         </div>
         {{ range first 4 (where .Site.RegularPages "Section" "supplements") }}
@@ -207,11 +159,11 @@
           <span class="featured-item__title">{{ .Title }}</span>
         </a>
         {{ end }}
-        <a href="/supplements/" class="btn btn--ghost" style="margin-top:var(--sp-3)">All {{ len (where .Site.RegularPages "Section" "supplements") }} Supplements &rarr;</a>
+        <a href="/supplements/" class="btn btn--ghost" style="margin-top:var(--sp-3)">All {{ len (where .Site.RegularPages "Section" "supplements") }} &rarr;</a>
       </div>
       <div class="featured-col">
         <div class="featured-col__header">
-          <span class="label reveal">Explore</span>
+          <span class="label reveal">Browse</span>
           <h2 class="display--sm reveal reveal-d1" style="font-family:var(--font-display)">Comparisons</h2>
         </div>
         {{ range first 4 (where .Site.RegularPages "Section" "comparisons") }}
@@ -220,19 +172,19 @@
           <span class="featured-item__title">{{ .Title }}</span>
         </a>
         {{ end }}
-        <a href="/comparisons/" class="btn btn--ghost" style="margin-top:var(--sp-3)">All {{ len (where .Site.RegularPages "Section" "comparisons") }} Comparisons &rarr;</a>
+        <a href="/comparisons/" class="btn btn--ghost" style="margin-top:var(--sp-3)">All {{ len (where .Site.RegularPages "Section" "comparisons") }} &rarr;</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══ BLOG ═══ -->
+<!-- ═══ BLOG + DISCLAIMER — Compact bottom ═══ -->
 {{ $blogs := where .Site.RegularPages "Section" "blog" }}
 {{ if $blogs }}
 <section class="section--sm">
   <div class="container" style="max-width:800px">
-    <div class="section__header" style="text-align:center">
-      <span class="label reveal">Latest Research</span>
+    <div style="text-align:center;margin-bottom:var(--sp-8)">
+      <span class="label reveal">Latest</span>
       <h2 class="display--sm reveal reveal-d1" style="font-family:var(--font-display)">From the Blog</h2>
     </div>
     <div class="hp-blog__grid">
@@ -242,23 +194,21 @@
           {{ range first 2 .Params.tags }}<span class="badge badge--neutral">{{ . }}</span>{{ end }}
         </div>
         <h3 class="hp-blog__title">{{ .Title }}</h3>
-        <p class="hp-blog__desc">{{ .Description }}</p>
       </a>
       {{ end }}
     </div>
-    <div style="text-align:center;margin-top:var(--sp-8)">
-      <a href="/blog/" class="btn btn--secondary">All Articles &rarr;</a>
+    <div style="text-align:center;margin-top:var(--sp-6)">
+      <a href="/blog/" class="btn btn--ghost">All Articles &rarr;</a>
     </div>
   </div>
 </section>
 {{ end }}
 
-<!-- ═══ DISCLAIMER ═══ -->
-<section class="section--sm" style="padding-bottom:var(--sp-8)">
-  <div class="container" style="max-width:700px">
+<section style="padding:var(--sp-8) 0 var(--sp-12)">
+  <div class="container" style="max-width:640px">
     <div class="disclaimer reveal">
       <div class="disclaimer__title">Important</div>
-      <p class="disclaimer__text">DermaProtocol provides educational decision-support content. It does not diagnose, treat, cure, or prevent any disease. All information should be considered alongside professional medical advice. Individual results vary.</p>
+      <p class="disclaimer__text">DermaProtocol provides educational decision-support content. It is not medical advice. Individual results vary. Consult a qualified healthcare provider.</p>
     </div>
   </div>
 </section>

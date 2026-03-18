@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="detail-hero" style="text-align:center">
+  <div class="container--narrow">
+    <span class="label">Interactive Tool</span>
+    <h1 class="display display--lg" style="margin-top:var(--sp-3)">Skin Nutrition Scorer</h1>
+    <p class="body body--lg" style="margin:var(--sp-3) auto 0;text-align:center">Select foods you typically eat in a day. We score your intake across 11 nutrients critical for skin health.</p>
+  </div>
+</div>
+<div class="section">
+  <div class="container" style="max-width:900px">
+    <div id="nutritionApp"></div>
+  </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="/js/nutrition-scorer.js"></script>
+{{ end }}

@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="detail-hero" style="text-align:center">
+  <div class="container--narrow">
+    <span class="label">Interactive Tool</span>
+    <h1 class="display display--lg" style="margin-top:var(--sp-3)">Ingredient Decoder</h1>
+    <p class="body body--lg" style="margin:var(--sp-3) auto 0;text-align:center">Paste any product's ingredient list. Get every ingredient identified, evidence-graded, and cross-referenced with supplement interactions.</p>
+  </div>
+</div>
+<div class="section">
+  <div class="container--narrow">
+    <div id="decoderApp"></div>
+  </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="/js/ingredient-decoder.js"></script>
+{{ end }}
